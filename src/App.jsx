@@ -2,16 +2,18 @@
 import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter as Router
 import Routers from './router/Routers'
 import Cursor from "./components/cursor-animation/cursor";
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
 
   return (
     <>   
+    <Analytics >
     <Cursor />
       <Router>
-        <Routers />
+        <Routers /> 
       </Router>
-
+      </Analytics >
     </>
   )
 }
