@@ -35,7 +35,7 @@ const Contact = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/contact-form",
+        "https://om-interior-server.onrender.com/contact-form",
         JSON.stringify(formData),
         {
           headers: {
