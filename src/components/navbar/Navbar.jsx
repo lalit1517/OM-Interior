@@ -202,14 +202,14 @@ const Navbar = () => {
                               Home
                             </Link>
                           </li>
-                          <li>
-                            <Link
-                              to="/about"
-                              className={`nav-link font-medium hover:text-#0d6efd ${
+                          <li className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "About"
                                   ? "text-[#0d6efd]"
                                   : "text-gray-800"
-                              }`}
+                              }`}>
+                            <Link
+                              to="/about"
+                              
                               onClick={() => handleItemClick("About")}
                             >
                               About Us
