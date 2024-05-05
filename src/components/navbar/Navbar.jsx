@@ -41,25 +41,6 @@ const Navbar = () => {
     console.log(itemName);
   };
 
-  const [prevScrollPos, setPrevScrollPos] = useState(window.scrollY);
-  const [visible, setVisible] = useState(true);
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollPos = window.scrollY;
-      const visible = prevScrollPos > currentScrollPos;
-
-      setPrevScrollPos(currentScrollPos);
-      setVisible(visible);
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, [prevScrollPos]);
-
   return (
     <>
       <header
@@ -67,8 +48,8 @@ const Navbar = () => {
         className="header-effect-shrink mb-4 z-[10000]"
         data-plugin-options="{'stickyEnabled': true, 'stickyEffect': 'shrink', 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyChangeLogo': true, 'stickyStartAt': 30, 'stickyHeaderContainerHeight': 85}"
       >
-        <div className="header-body header-body-bottom-border border-top-0">
-          <div className={`header-top header-top-bottom-containered-border pt-2 ${visible ? "" : "header-top-hidden"}`}>
+        <div className="header-body header-body-bottom-border">
+          <div className={`header-top navbar header-top-bottom-containered-border pt-2 pb-0`}>
             <div className="container">
               <div className="header-row flex w-full justify-between">
                 <div className="header-column flex items-center">
