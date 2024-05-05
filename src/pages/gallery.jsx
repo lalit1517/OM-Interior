@@ -52,7 +52,7 @@ const Gallery = () => {
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center">
                   <div class="hover-effect-3d relative group">
-                    <Link to="/commercials">
+                    <Link target="_blank" to="/commercials">
                       <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper h-56 relative">
                           <img
