@@ -36,8 +36,7 @@ const Navbar = () => {
     }
   }, [location.pathname]);
 
-  const handleItemClick = (itemName, e) => {
-    e.preventDefault(); // Prevent default anchor tag behavior
+  const handleItemClick = (itemName) => {
     setActiveItem(itemName);
     console.log(itemName);
   };
