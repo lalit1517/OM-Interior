@@ -190,8 +190,8 @@ const Navbar = () => {
                       <nav>
                         <ul className="nav nav-pills" id="mainNav">
                           <li>
-                            <a
-                              href="/"
+                            <Link
+                              to="/"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Home"
                                   ? "text-[#0d6efd]"
@@ -200,11 +200,11 @@ const Navbar = () => {
                               onClick={() => handleItemClick("Home")}
                             >
                               Home
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="/about-us"
+                            <Link
+                              to="/about"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "About"
                                   ? "text-[#0d6efd]"
@@ -213,15 +213,15 @@ const Navbar = () => {
                               onClick={() => handleItemClick("About")}
                             >
                               About Us
-                            </a>
+                            </Link>
                           </li>
                           <li
                             className="relative"
                             onMouseEnter={handleMouseEnter}
                             onMouseLeave={handleMouseLeave}
                           >
-                            <a
-                              href="#"
+                            <Link
+                              to="#"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Service"
                                   ? "text-[#0d6efd]"
@@ -230,7 +230,7 @@ const Navbar = () => {
                               onClick={(e) => handleItemClick("Service", e)}
                             >
                               Service
-                            </a>
+                            </Link>
                             {isDropdownOpen && (
                               <ul className="absolute bg-white shadow-md px-0 border border-[#0d6efd] z-[10000] hover:bg-gray-800 py-2 text-center rounded-md">
                                 <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
@@ -258,8 +258,8 @@ const Navbar = () => {
                             )}
                           </li>
                           <li>
-                            <a
-                              href="/blog"
+                            <Link
+                              to="/blog"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Blog"
                                   ? "text-[#0d6efd]"
@@ -268,11 +268,11 @@ const Navbar = () => {
                               onClick={() => handleItemClick("Blog")}
                             >
                               Blog
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="/gallery"
+                            <Link
+                              to="/gallery"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Gallery"
                                   ? "text-[#0d6efd]"
@@ -281,11 +281,11 @@ const Navbar = () => {
                               onClick={() => handleItemClick("Gallery")}
                             >
                               Gallery
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="/contact-us"
+                            <Link
+                              to="/contact-us"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Contact"
                                   ? "text-[#0d6efd]"
@@ -294,7 +294,7 @@ const Navbar = () => {
                               onClick={() => handleItemClick("Contact")}
                             >
                               Contact
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </nav>
