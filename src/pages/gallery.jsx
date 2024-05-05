@@ -51,7 +51,7 @@ const Gallery = () => {
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center">
                   <div class="hover-effect-3d relative group">
-                    <a target="_blank" href="/commercials">
+                    <Link target="_blank" to="/commercials">
                       <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper h-56 relative">
                           <img
@@ -71,13 +71,13 @@ const Gallery = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center">
                   <div class="hover-effect-3d  relative group">
-                    <a target="_blank" href="/restaurants">
+                    <Link target="_blank" to="/restaurants">
                       <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper h-56 relative">
                           <img
@@ -97,13 +97,13 @@ const Gallery = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center">
                   <div class="hover-effect-3d  relative group">
-                    <a target="_blank" href="/restaurants">
+                    <Link target="_blank" to="/restaurants">
                       <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper h-56 relative">
                           <img
@@ -123,7 +123,7 @@ const Gallery = () => {
                           </div>
                         </div>
                       </div>
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
