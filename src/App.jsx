@@ -8,12 +8,11 @@ function App() {
 
   return (
     <>   
-    <Analytics >
     <Cursor />
       <Router>
         <Routers /> 
       </Router>
-      </Analytics >
+      <Analytics />
     </>
   )
 }
