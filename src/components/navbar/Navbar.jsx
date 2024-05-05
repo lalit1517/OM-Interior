@@ -23,7 +23,7 @@ const Navbar = () => {
     const pathname = location.pathname;
     if (pathname === "/") {
       setActiveItem("Home");
-    } else if (pathname === "/about-us") {
+    } else if (pathname === "/about") {
       setActiveItem("About");
     } else if (pathname === "/service") {
       setActiveItem("Service");
@@ -31,7 +31,7 @@ const Navbar = () => {
       setActiveItem("Blog");
     } else if (pathname === "/gallery") {
       setActiveItem("Gallery");
-    } else if (pathname === "/contact-us") {
+    } else if (pathname === "/contact") {
       setActiveItem("Contact");
     }
   }, [location.pathname]);
@@ -285,7 +285,7 @@ const Navbar = () => {
                           </li>
                           <li>
                             <Link
-                              to="/contact-us"
+                              to="/contact"
                               className={`nav-link font-medium hover:text-#0d6efd ${
                                 activeItem === "Contact"
                                   ? "text-[#0d6efd]"

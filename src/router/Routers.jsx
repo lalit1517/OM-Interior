@@ -12,11 +12,11 @@ const Routers = () => {
   return (
     <Routes>
       <Route path='/' element={<Home/>}/>
-      <Route path='about-us' element={<About/>}/>
-      <Route path='gallery' element={<Gallery/>}/>
-      <Route path='contact-us' element={<Contact/>}/>
-      <Route path='commercials' element={<Commercial/>}/>
-      <Route path='restaurants' element={<Restaurant/>}/>
+      <Route path='/about' element={<About/>}/>
+      <Route path='/gallery' element={<Gallery/>}/>
+      <Route path='/contact' element={<Contact/>}/>
+      <Route path='/commercials' element={<Commercial/>}/>
+      <Route path='/restaurants' element={<Restaurant/>}/>
     </Routes>
   );
 };
