@@ -10,8 +10,8 @@ const Footer = () => {
         className="footer-reveal bg-black text-white border-0 mt-0"
       >
         <div className="container container-xl-custom pt-4 pb-3">
-          <div className="flex gap-8 justify-between py-5">
-            <div className="max-w-[21%] mb-4 lg:mb-0">
+          <div className="flex flex-col md:flex-row gap-8 justify-between py-5">
+            <div className="md:max-w-[21%] mb-0">
               <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
                 Keystone Interior Design
               </h4>
@@ -38,7 +38,7 @@ const Footer = () => {
                 <li className="mb-0">Punjab, INDIA</li>
               </ul>
             </div>
-            <div className="w-fit mb-4 lg:mb-0">
+            <div className="w-fit mb-0">
               <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
                 Our Contacts
               </h4>
@@ -81,7 +81,7 @@ const Footer = () => {
                 CONTACT US
               </a>
             </div>
-            <div className="w-fit mb-4 md:mb-0">
+            <div className="w-fit mb-0">
               <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
                 Important Links
               </h4>
@@ -151,7 +151,7 @@ const Footer = () => {
               <h4 class="font-weight-bold ls-0 text-base lg:text-xl">
                 Follow Us
               </h4>
-              <ul class="social-icons social-icons-clean flex gap-2 pl-0 justify-between social-icons-medium">
+              <ul class="social-icons social-icons-clean flex gap-10 mt-3 mb-0 md:gap-2 pl-0 justify-between social-icons-medium">
                 <li>
                   <a
                     className="text-gray-400 text-[0.9rem]"
@@ -196,19 +196,19 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-copyright bg-color-secondary">
-          <div className="container container-xl-custom pb-4">
-            <div className="row opacity-[0.3]">
+          <div className="container container-xl-custom px-2.5">
+            <div className="row opacity-[0.1]">
               <div className="col">
-                <div className="my-0 bg-gray-200 h-[0.01rem]" />
+                <div className=" my-0 mb-4 bg-gray-200 h-[0.01rem]" />
               </div>
             </div>
-            <div className="flex justify-between py-4 mt-2 text-gray-400 text-[0.9rem]">
-              <div className="w-full lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
+            <div className="flex flex-col md:flex-row items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
+              <div className="w-fit lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
                 <p className="text-3 mb-0">
                   Keystone Interior Design. All Rights Reserved
                 </p>
               </div>
-              <div className="w-full lg:w-1/2 text-right lg:text-lg-end">
+              <div className="w-fit text-right lg:w-1/2 lg:text-lg-end">
                 &copy; 2024, made with <i className="fa fa-heart heart"></i> &{" "}
                 <a
                   className="text-decoration-none"
@@ -221,8 +221,8 @@ const Footer = () => {
                 </a>
               </div>
             </div>
-            <div className="flex justify-between py-0">
-              <div className="w-full lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
+            <div className="flex items-center justify-between py-0">
+              <div className="w-full flex items-center justify-center md:justify-between text-left lg:w-1/2 lg:text-lg-start py-4 mb-lg-0">
                 <p className="text-gray-400 text-[0.9rem] mb-0">
                 Interior Designers In Gurugram.
                 </p>

@@ -116,7 +116,7 @@ const About = () => {
                   designers in Gurugram, Delhi NCR. Feel free to contact and go
                   to on Om Interior's{" "}
                   <span>
-                    <a href="/contact-us" className="text-[#0d6efd] font-bold">
+                    <a href="/contact" className="text-[#0d6efd] font-bold">
                       contact us page
                     </a>
                   </span>
@@ -129,7 +129,7 @@ const About = () => {
 
         <section className="section border-0 pb-0 pb-lg-5 m-0">
           <div className="container my-lg-4">
-            <div className="row mb-4 pb-2">
+            <div className="row pb-6">
               <div className="col"></div>
               <div className="socialShareButtonFooter py-4">
                 <h6
