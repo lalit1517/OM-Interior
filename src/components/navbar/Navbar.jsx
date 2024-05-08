@@ -18,7 +18,6 @@ const Navbar = () => {
     setIsDropdownOpen((prevState) => !prevState);
   };
 
-
   const handleMouseEnter = () => {
     setIsDropdownOpen(true);
   };
@@ -252,11 +251,16 @@ const Navbar = () => {
                                 Service
                               </Link>
                               {isDropdownOpen && (
-                                <ul className="absolute bg-white shadow-md px-0 border border-[#0d6efd] z-[10000] hover:bg-gray-800 py-2 text-center rounded-md">
+                                <ul
+                                  className="pt-[34px] absolute bg-white shadow-md px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center"
+                                >
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
-                                    <a
+                                    <a style={{
+                                    borderTop: "4px solid",
+                                    borderTopColor: "#0d6efd",
+                                  }}
                                       href="/service/residential/1g2076/"
-                                      className="nav-link text-[#0d6efd] hover:text-gray-200 font-medium"
+                                      className="nav-link text-gray-500 hover:text-gray-200 font-normal"
                                       title="RESIDENTIAL"
                                     >
                                       RESIDENTIAL
@@ -268,7 +272,7 @@ const Navbar = () => {
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
                                       href="/service/commercial/1g2077/"
-                                      className="nav-link text-[#0d6efd] hover:text-gray-200 font-medium"
+                                      className="nav-link text-gray-500 hover:text-gray-200 font-normal"
                                       title="COMMERCIAL"
                                     >
                                       COMMERCIAL
@@ -312,119 +316,119 @@ const Navbar = () => {
               </div>
 
               {isDropdownOpen2 && (
-
                 <motion.div
-              className="header-nav header-nav-links flex flex-col mt-4 "
-                id="navbar-links"
-              initial={{ y: 0, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ type: "tween", duration: 1 }}
-            >
-                <div className="header-nav-main header-nav-main-text-capitalize header-nav-main-effect-2 header-nav-main-sub-effect-1">
-                  <nav>
-                    <ul className="pl-0 mb-0 py-2">
-                      <li>
-                        <Link
-                          to="/"
-                          className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
-                            activeItem === "Home"
-                              ? "bg-[#0d6efd] text-white"
-                              : "bg-white text-[#0d6efd]"
-                          }`}
-                          onClick={() => handleItemClick("Home")}
-                        >
-                          HOME
-                        </Link>
-                      </li>
-                      <li className="h-[1px] w-full bg-gray-300 "></li>
-                      <li>
-                        <Link
-                          to="/about"
-                          className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
-                            activeItem === "About"
-                            ? "bg-[#0d6efd] text-white"
-                              : "bg-white text-[#0d6efd]"
-                          }`}
-                          onClick={() => handleItemClick("About")}
-                        >
-                          ABOUT US
-                        </Link>
-                      </li>
-                      <li className="h-[1px] w-full bg-gray-300 "></li>
-                      <li
-                        className="relative"
-                      >
-                        <Link
-                        style={{display:"flex"}}
-                          to="#"
-                          className={`nav-link border flex items-center justify-between border-white rounded-md font-medium hover:text-#0d6efd ${
-                            activeItem === "Service"
-                            ? "bg-[#0d6efd] text-white"
-                              : "bg-white text-[#0d6efd]"
-                          }`}
-                          onClick={(e) => handleItemClick("Service", e)}
-                        >
-                         <p className="w-fit mb-0">SERVICE</p> 
-                         <i onClick={handleDropdownToggle2} className="fas fa-chevron-down pl-auto"></i>
-                        </Link>
-                        {isDropdownOpen && (
-                          <ul className="mx-6 bg-white px-0 z-[10000] hover:bg-gray-800 pb-2 text-left">
-                            <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
-                              <a
-                                href="#"
-                                className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
-                                title="RESIDENTIAL"
-                              >
-                                RESIDENTIAL
-                              </a>
-                            </li>
-                            <div className="flex items-center justify-center">
-                              <li className="text-center h-[1px] w-full bg-gray-300"></li>
-                            </div>
-                            <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
-                              <a
-                                href="#"
-                                className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
-                                title="COMMERCIAL"
-                              >
-                                COMMERCIAL
-                              </a>
-                            </li>
-                          </ul>
-                        )}
-                      </li>
-                      <li className="h-[1px] w-full bg-gray-300 "></li>
-                      <li>
-                        <Link
-                          to="/gallery"
-                          className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
-                            activeItem === "Gallery"
-                            ? "bg-[#0d6efd] text-white"
-                              : "bg-white text-[#0d6efd]"
-                          }`}
-                          onClick={() => handleItemClick("Gallery")}
-                        >
-                          GALLERY
-                        </Link>
-                      </li>
-                      <li className="h-[1px] w-full bg-gray-300 "></li>
-                      <li>
-                        <Link
-                          to="/contact"
-                          className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
-                            activeItem === "Contact"
-                            ? "bg-[#0d6efd] text-white"
-                              : "bg-white text-[#0d6efd]"
-                          }`}
-                          onClick={() => handleItemClick("Contact")}
-                        >
-                          CONTACT
-                        </Link>
-                      </li>
-                    </ul>
-                  </nav>
-                </div>
-              </motion.div>
+                  className="header-nav header-nav-links flex flex-col mt-4 "
+                  id="navbar-links"
+                  initial={{ y: 0, opacity: 0 }}
+                  animate={{ y: 0, opacity: 1 }}
+                  transition={{ type: "tween", duration: 1 }}
+                >
+                  <div className="header-nav-main header-nav-main-text-capitalize header-nav-main-effect-2 header-nav-main-sub-effect-1">
+                    <nav>
+                      <ul className="pl-0 mb-0 py-2">
+                        <li>
+                          <Link
+                            to="/"
+                            className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
+                              activeItem === "Home"
+                                ? "bg-[#0d6efd] text-white"
+                                : "bg-white text-[#0d6efd]"
+                            }`}
+                            onClick={() => handleItemClick("Home")}
+                          >
+                            HOME
+                          </Link>
+                        </li>
+                        <li className="h-[1px] w-full bg-gray-300 "></li>
+                        <li>
+                          <Link
+                            to="/about"
+                            className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
+                              activeItem === "About"
+                                ? "bg-[#0d6efd] text-white"
+                                : "bg-white text-[#0d6efd]"
+                            }`}
+                            onClick={() => handleItemClick("About")}
+                          >
+                            ABOUT US
+                          </Link>
+                        </li>
+                        <li className="h-[1px] w-full bg-gray-300 "></li>
+                        <li className="relative">
+                          <Link
+                            style={{ display: "flex" }}
+                            to="#"
+                            className={`nav-link border flex items-center justify-between border-white rounded-md font-medium hover:text-#0d6efd ${
+                              activeItem === "Service"
+                                ? "bg-[#0d6efd] text-white"
+                                : "bg-white text-[#0d6efd]"
+                            }`}
+                            onClick={(e) => handleItemClick("Service", e)}
+                          >
+                            <p className="w-fit mb-0">SERVICE</p>
+                            <i
+                              onClick={handleDropdownToggle2}
+                              className="fas fa-chevron-down pl-auto"
+                            ></i>
+                          </Link>
+                          {isDropdownOpen && (
+                            <ul className="mx-6 bg-white px-0 z-[10000] hover:bg-gray-800 pb-2 text-left">
+                              <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
+                                <a
+                                  href="#"
+                                  className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
+                                  title="RESIDENTIAL"
+                                >
+                                  RESIDENTIAL
+                                </a>
+                              </li>
+                              <div className="flex items-center justify-center">
+                                <li className="text-center h-[1px] w-full bg-gray-300"></li>
+                              </div>
+                              <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
+                                <a
+                                  href="#"
+                                  className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
+                                  title="COMMERCIAL"
+                                >
+                                  COMMERCIAL
+                                </a>
+                              </li>
+                            </ul>
+                          )}
+                        </li>
+                        <li className="h-[1px] w-full bg-gray-300 "></li>
+                        <li>
+                          <Link
+                            to="/gallery"
+                            className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
+                              activeItem === "Gallery"
+                                ? "bg-[#0d6efd] text-white"
+                                : "bg-white text-[#0d6efd]"
+                            }`}
+                            onClick={() => handleItemClick("Gallery")}
+                          >
+                            GALLERY
+                          </Link>
+                        </li>
+                        <li className="h-[1px] w-full bg-gray-300 "></li>
+                        <li>
+                          <Link
+                            to="/contact"
+                            className={`nav-link border border-white rounded-md font-medium hover:text-#0d6efd ${
+                              activeItem === "Contact"
+                                ? "bg-[#0d6efd] text-white"
+                                : "bg-white text-[#0d6efd]"
+                            }`}
+                            onClick={() => handleItemClick("Contact")}
+                          >
+                            CONTACT
+                          </Link>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </motion.div>
               )}
             </div>
           </div>

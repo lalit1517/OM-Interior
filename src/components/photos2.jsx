@@ -6,7 +6,7 @@ const localPhotos = [
   { src: '/res-3.png', width: 1280, height: 720 },
   { src: '/res-4.png', width: 1280, height: 721 },
   { src: '/res-5.png', width: 1680, height: 1620 },
-  { src: '/res-6.png', width: 1280, height: 607 },
+  { src: '/res-8.png', width: 1280, height: 607 },
   { src: '/res-7.png', width: 1280, height: 608 },
   { src: '/res-9.png', width: 1280, height: 1549 },
   { src: '/res-10.png', width: 1280, height: 720 },

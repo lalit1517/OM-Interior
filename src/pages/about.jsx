@@ -5,8 +5,57 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 const About = () => {
+
+  useEffect(() => {
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+      scrollTrigger: {
+        trigger: ".scroll-trigger",
+        start: "top 70%",
+        end: "top center",
+        once: true,
+        duration: -1,
+      },
+    });
+
+    tl.fromTo(
+      ".sp-1",
+      { y: "5", opacity: 0 },
+      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+    );
+
+    tl.fromTo(
+      ".sp-2",
+      { y: "5", opacity: 0 },
+      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+    );
+
+    tl.fromTo(
+      ".sp-3",
+      { y: "5", opacity: 0 },
+      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+    );
+
+    tl.fromTo(
+      ".sp-4",
+      { y: "5", opacity: 0 },
+      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+    );
+
+    tl.fromTo(
+      ".sp-5",
+      { y: "5", opacity: 0 },
+      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+    );
+
+  }, []);
+
   return (
     <div>
       <Navbar />
@@ -127,29 +176,29 @@ const About = () => {
           </div>
         </section>
 
-        <section className="section border-0 pb-0 pb-lg-5 m-0">
+        <section className="section scroll-trigger border-0 pb-0 pb-lg-5 m-0">
           <div className="container my-lg-4">
             <div className="row pb-6">
               <div className="col"></div>
               <div className="socialShareButtonFooter py-4">
                 <h6
-                  className="text-color-primary font-weight-semibold text-[#0d6efd] line-height-3 text-3 mb-2 appear-animation"
+                  className="text-color-primary sp-1 font-weight-semibold text-[#0d6efd] line-height-3 text-3 mb-2 appear-animation"
                   data-appear-animation="maskRight"
                   data-appear-animation-delay="500"
                 >
-                  <i className="fas fa-share-alt"></i> Share this page
+                  <i className="fas fa-share-alt mr-2"></i> Share this page
                 </h6>
                 <div className="flex items-center gap-10 pl-6 text-xl">
-                  <a href="" className="text-gray-800">
+                  <a href="" className="text-gray-800 sp-2">
                     <i className="fab fa-twitter"></i>
                   </a>
-                  <a href="" className="text-gray-800">
+                  <a href="" className="text-gray-800 sp-3">
                     <i className="fab fa-facebook-square"></i>
                   </a>
-                  <a href="" className="text-gray-800">
+                  <a href="" className="text-gray-800 sp-4">
                     <i className="fab fa-whatsapp"></i>
                   </a>
-                  <a href="" className="text-gray-800">
+                  <a href="" className="text-gray-800 sp-5">
                     <i className="fab fa-linkedin"></i>
                   </a>
                 </div>

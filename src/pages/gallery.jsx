@@ -5,8 +5,36 @@ import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { gsap } from "gsap";
 
 const Gallery = () => {
+
+  useEffect(() => {
+
+  const tl=gsap.timeline({
+    defaults:{
+        opacity:0,
+        ease:"linear",
+        duration:0.7
+    }
+});
+
+tl.fromTo(".gallery-card1",{y:100, opacity:0}, {
+    y:0,
+    opacity:1,
+})
+
+tl.fromTo(".gallery-card2",{y:100, opacity:0}, {
+  y:0,
+  opacity:1,
+})
+
+tl.fromTo(".gallery-card3",{y:100, opacity:0}, {
+  y:0,
+  opacity:1,
+})
+
+}, []);
 
   return (
     <div>
@@ -41,8 +69,8 @@ const Gallery = () => {
           </div>
         </section>
 
-        <section>
-          <div className="container py-16">
+        <section className="py-12 md:py-20">
+          <div className="container">
             <div className="masonry-loader masonry-loader-showing">
               <div
                 className="row products product-thumb-info-list"
@@ -50,11 +78,11 @@ const Gallery = () => {
                 data-plugin-options="{'layoutMode': 'fitRows'}"
               >
 
-                <div class="col-6 col-sm-6 col-lg-4 flex items-center">
+                <div class="col-6 col-sm-6 col-lg-4 flex items-center gallery-card1">
                   <div class="hover-effect-3d relative group">
                     <Link target="_blank" to="/commercials">
-                      <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
-                        <div class="thumb-info-wrapper h-56 relative">
+                      <div class="thumb-info md:h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
+                        <div class="thumb-info-wrapper md:h-56 relative">
                           <img
                             src="./com.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
@@ -62,7 +90,7 @@ const Gallery = () => {
                           />
                           <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
-                              Commercials
+                              Offices
                             </div>
                             <div class="thumb-info-action absolute top-0 right-0 bg-[#0d6efd] rounded-bl-md h-10 w-10 flex justify-center animate-fade-out-top-right animate-fade-in-top-right items-center transition-opacity duration-500 ease-in-out">
                               <div class="w-full h-full flex items-center justify-center">
@@ -76,13 +104,13 @@ const Gallery = () => {
                   </div>
                 </div>
 
-                <div class="col-6 col-sm-6 col-lg-4 flex items-center">
+                <div class="col-6 col-sm-6 col-lg-4 flex items-center gallery-card2">
                   <div class="hover-effect-3d  relative group">
                     <Link target="_blank" to="/restaurants">
-                      <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
-                        <div class="thumb-info-wrapper h-56 relative">
+                      <div class="thumb-info md:h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
+                        <div class="thumb-info-wrapper md:h-56 relative">
                           <img
-                            src="./res-8.png"
+                            src="./res-6.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
                             alt="Living Room Design Gallery"
                           />
@@ -102,11 +130,11 @@ const Gallery = () => {
                   </div>
                 </div>
 
-                <div class="col-6 col-sm-6 col-lg-4 flex items-center">
+                <div class="col-6 col-sm-6 col-lg-4 flex items-center pt-8 md:pt-12 lg:pt-0 gallery-card3">
                   <div class="hover-effect-3d  relative group">
                     <Link target="_blank" to="/restaurants">
-                      <div class="thumb-info h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
-                        <div class="thumb-info-wrapper h-56 relative">
+                      <div class="thumb-info md:h-56 border border-transparent rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
+                        <div class="thumb-info-wrapper md:h-56 relative">
                           <img
                             src="./com.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"

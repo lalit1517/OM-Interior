@@ -1,20 +1,21 @@
 /* eslint-disable no-unused-vars */
-import { BrowserRouter as Router } from 'react-router-dom'; // Import BrowserRouter as Router
-import Routers from './router/Routers'
+import { BrowserRouter as Router } from "react-router-dom"; // Import BrowserRouter as Router
+import Routers from "./router/Routers";
 import Cursor from "./components/cursor-animation/cursor";
-import { Analytics } from "@vercel/analytics/react"
+import ScrollToTop from "./components/ScrollToTop";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
-
   return (
-    <>   
-    <Cursor />
+    <>
+      <Cursor />
       <Router>
-        <Routers /> 
+        {/* <ScrollToTop /> */}
+        <Routers />
       </Router>
       <Analytics />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
