@@ -80,7 +80,7 @@ tl.fromTo(".gallery-card3",{y:100, opacity:0}, {
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center gallery-card1">
                   <div class="hover-effect-3d relative group">
-                    <Link target="_blank" to="/commercials">
+                    <Link to="/gallery-offices">
                       <div class="thumb-info md:h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper md:h-56 relative">
                           <img
@@ -106,7 +106,7 @@ tl.fromTo(".gallery-card3",{y:100, opacity:0}, {
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center gallery-card2">
                   <div class="hover-effect-3d  relative group">
-                    <Link target="_blank" to="/restaurants">
+                    <Link to="/gallery-restaurants">
                       <div class="thumb-info md:h-56 border rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper md:h-56 relative">
                           <img
@@ -132,7 +132,7 @@ tl.fromTo(".gallery-card3",{y:100, opacity:0}, {
 
                 <div class="col-6 col-sm-6 col-lg-4 flex items-center pt-8 md:pt-12 lg:pt-0 gallery-card3">
                   <div class="hover-effect-3d  relative group">
-                    <Link target="_blank" to="/restaurants">
+                    <Link to="/gallery-residentials">
                       <div class="thumb-info md:h-56 border border-transparent rounded-lg thumb-info-no-borders overflow-hidden thumb-info-no-borders-rounded thumb-info-centered-info">
                         <div class="thumb-info-wrapper md:h-56 relative">
                           <img

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -20,7 +20,10 @@ const Footer = () => {
                   Recognize how Keystone interior designers provide the best
                   interior designers in Chandigarh, Mohali, Panchkula
                   (Tricity)...
-                  <a href="/about-us/" className="text-decoration-none text-gray-400">
+                  <a
+                    href="/about-us/"
+                    className="text-decoration-none text-gray-400"
+                  >
                     ReadMore
                   </a>
                 </li>
@@ -44,7 +47,7 @@ const Footer = () => {
               </h4>
               <div className="feature-box feature-box-style-2 items-center mb-3 flex gap-2">
                 <div className="feature-box-icon border px-2.5 py-1.5 rounded-full inline-flex items-center justify-center border-red-700 h-full bg-[#0d6efd]">
-                <i className="fas fa-phone text-base text-white"></i>
+                  <i className="fas fa-phone text-base text-white"></i>
                 </div>
                 <div className="feature-box-info ps-2">
                   <p className="text-uppercase font-weight-semibold line-height-1 text-gray-400 text-[0.9rem] pb-0 mb-0">
@@ -161,14 +164,23 @@ const Footer = () => {
                     <i class="fab fa-facebook-f opacity-75 hover:scale-150 hover:opacity-100 transition-all"></i>
                   </a>
                 </li>{" "}
-                <li>
+                <li className="flex items-center justify-center">
                   {" "}
                   <a
                     className="text-gray-400 text-[0.9rem]"
                     href="https://twitter.com/Keystoneidesign"
                     target="_blank"
                   >
-                    <i class="fab fa-twitter opacity-75 hover:scale-150 hover:opacity-100 transition-all"></i>
+                  <div>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="currentColor"
+                      className="bi bi-twitter-x h-3 w-4 opacity-75 hover:scale-150 hover:opacity-100 transition-all"
+                      viewBox="0 0 16 16"
+                    >
+                      <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                    </svg>
+                    </div>
                   </a>
                 </li>{" "}
                 <li>
@@ -224,7 +236,7 @@ const Footer = () => {
             <div className="flex items-center justify-between py-0">
               <div className="w-full flex items-center justify-center md:justify-between text-left lg:w-1/2 lg:text-lg-start py-4 mb-lg-0">
                 <p className="text-gray-400 text-[0.9rem] mb-0">
-                Interior Designers In Gurugram.
+                  Interior Designers In Gurugram.
                 </p>
               </div>
             </div>

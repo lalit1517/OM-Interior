@@ -5,7 +5,7 @@ import Home from '../pages/Home.jsx';
 import About from '../pages/about.jsx';
 import Contact from '../pages/contact.jsx';
 import Gallery from '../pages/gallery.jsx';
-import Commercial from '../pages/commercial.jsx';
+import Office from '../pages/office.jsx';
 import Restaurant from '../pages/restaurant.jsx';
 
 const Routers = () => {
@@ -15,8 +15,8 @@ const Routers = () => {
       <Route path='/about' element={<About/>}/>
       <Route path='/gallery' element={<Gallery/>}/>
       <Route path='/contact' element={<Contact/>}/>
-      <Route path='/commercials' element={<Commercial/>}/>
-      <Route path='/restaurants' element={<Restaurant/>}/>
+      <Route path='/gallery-offices' element={<Office/>}/>
+      <Route path='/gallery-restaurants' element={<Restaurant/>}/>
     </Routes>
   );
 };

@@ -1,16 +1,13 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
-import "./Home.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGreaterThan } from "@fortawesome/free-solid-svg-icons";
+import { gsap } from "gsap";
 import PhotoAlbum from "react-photo-album";
-
 import Lightbox from "yet-another-react-lightbox";
 import "yet-another-react-lightbox/styles.css";
-
-// import optional lightbox plugins
 import Fullscreen from "yet-another-react-lightbox/plugins/fullscreen";
 import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
@@ -19,7 +16,24 @@ import "yet-another-react-lightbox/plugins/thumbnails.css";
 
 import photos from "../components/photos";
 
-const Commercial = () => {
+const Office = () => {
+
+  useEffect(() => {
+
+    const tl=gsap.timeline({
+      defaults:{
+          opacity:0,
+          ease:"linear",
+          duration:1
+      }
+  });
+  
+  tl.fromTo(".offices",{y:50, opacity:0}, {
+      y:0,
+      opacity:1,
+  })
+
+}, []);
   
   const [index, setIndex] = useState(-1);
 
@@ -56,8 +70,8 @@ const Commercial = () => {
           </div>
         </section>
 
-        <section>
-          <div class="container py-16">
+        <section className="py-16 md:py-20">
+          <div class="container offices">
             <PhotoAlbum
               photos={photos}
               layout="rows"
@@ -82,4 +96,4 @@ const Commercial = () => {
   );
 };
 
-export default Commercial;
+export default Office;

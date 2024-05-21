@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import "./Home.css";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -18,7 +17,6 @@ const Contact = () => {
   const [showConfirmation, setShowConfirmation] = useState(false);
 
   useEffect(() => {
-    
     gsap.registerPlugin(ScrollTrigger);
 
     const tl = gsap.timeline({
@@ -43,75 +41,74 @@ const Contact = () => {
     tl.fromTo(
       ".title1",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".sub-title1",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".sub-title2",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".sub-title3",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".title2",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".sub-title11",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".sub-title22",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl.fromTo(
       ".map-view",
       { y: "5", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.4 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.4 }
     );
 
     tl2.fromTo(
       ".git",
       { x: "-50", opacity: 0 },
-      { x: "0", opacity: 1, ease: "linear", duration:0.5 }
+      { x: "0", opacity: 1, ease: "linear", duration: 0.5 }
     );
 
     tl2.fromTo(
       ".git2",
       { x: "-20", opacity: 0 },
-      { x: "0", opacity: 1, ease: "linear", duration:0.5 }
+      { x: "0", opacity: 1, ease: "linear", duration: 0.5 }
     );
 
     tl2.fromTo(
       ".sum",
       { y: "20", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.5 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.5 }
     );
 
     tl2.fromTo(
       ".contact-fill-form",
       { y: "20", opacity: 0 },
-      { y: "0", opacity: 1, ease: "linear", duration:0.5 }
+      { y: "0", opacity: 1, ease: "linear", duration: 0.5 }
     );
-
   }, []);
 
   const toggleConfirmation = () => {
@@ -187,237 +184,237 @@ const Contact = () => {
               <div className="col-lg-7">
                 <div className="row scroll-trigger">
                   <div className="col-md-6">
-                  <div className="pt-5 mt-5 hidden md:block">
-                    <h2
-                      className="font-bold title1 text-gray-800 text-[1.7rem] mb-4"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="300"
-                    >
-                      Get In Touch
-                    </h2>
-                    <div
-                      className="appear-animation sub-title1"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="300"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Work Inquiries
-                      </h3>
-                      <a
-                        href="tel:+91******9529"
-                        onclick="webClickActivity('10','Contact Us Page Call','1')"
-                        className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                    <div className="pt-5 mt-5 hidden md:block">
+                      <h2
+                        className="font-bold title1 text-gray-800 text-[1.7rem] mb-4"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="300"
                       >
-                        ******9529
-                      </a>
-                    </div>
-                    <div
-                      className="appear-animation sub-title2"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="500"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        WhatsApp Number
-                      </h3>
-                      <a
-                        title="WhatsApp Number"
-                        href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
-                        onclick="webClickActivity('10','Contact Us WhatsApp','2')"
-                        className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        Get In Touch
+                      </h2>
+                      <div
+                        className="appear-animation sub-title1"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="300"
                       >
-                        ******9529
-                      </a>
-                    </div>
-                    <div
-                      className="appear-animation sub-title3"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="700"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Assistance Hours
-                      </h3>
-                      <p className="text-gray-400 text-[1rem]">
-                        Mon - Sat 11:00AM - 6:30PM
-                      </p>
-                    </div>
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Work Inquiries
+                        </h3>
+                        <a
+                          href="tel:+91******9529"
+                          onclick="webClickActivity('10','Contact Us Page Call','1')"
+                          className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        >
+                          ******9529
+                        </a>
+                      </div>
+                      <div
+                        className="appear-animation sub-title2"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="500"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          WhatsApp Number
+                        </h3>
+                        <a
+                          title="WhatsApp Number"
+                          href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
+                          onclick="webClickActivity('10','Contact Us WhatsApp','2')"
+                          className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        >
+                          ******9529
+                        </a>
+                      </div>
+                      <div
+                        className="appear-animation sub-title3"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="700"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Assistance Hours
+                        </h3>
+                        <p className="text-gray-400 text-[1rem]">
+                          Mon - Sat 11:00AM - 6:30PM
+                        </p>
+                      </div>
                     </div>
                     <div className="pt-[3.5rem] block md:hidden">
-                    <h2
-                      className="font-bold title1 text-gray-800 text-[1.7rem] mb-4"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="300"
-                    >
-                      Get In Touch
-                    </h2>
-                    <div
-                      className="appear-animation sub-title1"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="300"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Work Inquiries
-                      </h3>
-                      <a
-                        href="tel:+91******9529"
-                        onclick="webClickActivity('10','Contact Us Page Call','1')"
-                        className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                      <h2
+                        className="font-bold title1 text-gray-800 text-[1.7rem] mb-4"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="300"
                       >
-                        ******9529
-                      </a>
-                    </div>
-                    <div
-                      className="appear-animation sub-title2"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="500"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        WhatsApp Number
-                      </h3>
-                      <a
-                        title="WhatsApp Number"
-                        href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
-                        onclick="webClickActivity('10','Contact Us WhatsApp','2')"
-                        className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        Get In Touch
+                      </h2>
+                      <div
+                        className="appear-animation sub-title1"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="300"
                       >
-                        ******9529
-                      </a>
-                    </div>
-                    <div
-                      className="appear-animation sub-title3"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="700"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Assistance Hours
-                      </h3>
-                      <p className="text-gray-400 text-[1rem]">
-                        Mon - Sat 11:00AM - 6:30PM
-                      </p>
-                    </div>
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Work Inquiries
+                        </h3>
+                        <a
+                          href="tel:+91******9529"
+                          onclick="webClickActivity('10','Contact Us Page Call','1')"
+                          className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        >
+                          ******9529
+                        </a>
+                      </div>
+                      <div
+                        className="appear-animation sub-title2"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="500"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          WhatsApp Number
+                        </h3>
+                        <a
+                          title="WhatsApp Number"
+                          href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
+                          onclick="webClickActivity('10','Contact Us WhatsApp','2')"
+                          className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
+                        >
+                          ******9529
+                        </a>
+                      </div>
+                      <div
+                        className="appear-animation sub-title3"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="700"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Assistance Hours
+                        </h3>
+                        <p className="text-gray-400 text-[1rem]">
+                          Mon - Sat 11:00AM - 6:30PM
+                        </p>
+                      </div>
                     </div>
                   </div>
                   <div className="col-md-6">
-                  <div className="pt-5 mt-5 hidden md:block">
-                    <h2
-                      className="font-bold title2 text-gray-800 text-[1.7rem] mb-4"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="1100"
-                    >
-                      Post Address and Mail
-                    </h2>
-                    <div
-                      className="appear-animation sub-title11"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="900"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Address
-                      </h3>
-                      <p className="text-gray-400 text-[1rem]">
-                        Plot Number - 708, Second Floor , JLPL , Industrial Area
-                        , Sector 82 <br />
-                        Mohali, 160062
-                        <br />
-                        Punjab, INDIA
-                      </p>
-                    </div>
-                    <div
-                      className="appear-animation sub-title22"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="1100"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Email
-                      </h3>
-                      <a
-                        href="mailto:******************************.com"
-                        className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
+                    <div className="pt-5 mt-5 hidden md:block">
+                      <h2
+                        className="font-bold title2 text-gray-800 text-[1.7rem] mb-4"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="1100"
                       >
-                        ******************************.com
-                      </a>
-                      <br />
-                      <a
-                        href="mailto:"
-                        className="text-color-default text-color-hover-primary text-decoration-underline mb-4"
-                      ></a>
-                    </div>
-                  </div>
-                  <div className="pt-[2.3rem] block md:hidden">
-                    <h2
-                      className="font-bold title2 text-gray-800 text-[1.7rem] mb-4"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="1100"
-                    >
-                      Post Address and Mail
-                    </h2>
-                    <div
-                      className="appear-animation sub-title11"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="900"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Address
-                      </h3>
-                      <p className="text-gray-400 text-[1rem]">
-                        Plot Number - 708, Second Floor , JLPL , Industrial Area
-                        , Sector 82 <br />
-                        Mohali, 160062
-                        <br />
-                        Punjab, INDIA
-                      </p>
-                    </div>
-                    <div
-                      className="appear-animation sub-title22"
-                      data-appear-animation="fadeInUpShorter"
-                      data-appear-animation-delay="1100"
-                    >
-                      <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
-                        Email
-                      </h3>
-                      <a
-                        href="mailto:******************************.com"
-                        className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
+                        Post Address and Mail
+                      </h2>
+                      <div
+                        className="appear-animation sub-title11"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="900"
                       >
-                        ******************************.com
-                      </a>
-                      <br />
-                      <a
-                        href="mailto:"
-                        className="text-color-default text-color-hover-primary text-decoration-underline mb-4"
-                      ></a>
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Address
+                        </h3>
+                        <p className="text-gray-400 text-[1rem]">
+                          Plot Number - 708, Second Floor , JLPL , Industrial
+                          Area , Sector 82 <br />
+                          Mohali, 160062
+                          <br />
+                          Punjab, INDIA
+                        </p>
+                      </div>
+                      <div
+                        className="appear-animation sub-title22"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="1100"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Email
+                        </h3>
+                        <a
+                          href="mailto:******************************.com"
+                          className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
+                        >
+                          ******************************.com
+                        </a>
+                        <br />
+                        <a
+                          href="mailto:"
+                          className="text-color-default text-color-hover-primary text-decoration-underline mb-4"
+                        ></a>
+                      </div>
                     </div>
-                  </div>
+                    <div className="pt-[2.3rem] block md:hidden">
+                      <h2
+                        className="font-bold title2 text-gray-800 text-[1.7rem] mb-4"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="1100"
+                      >
+                        Post Address and Mail
+                      </h2>
+                      <div
+                        className="appear-animation sub-title11"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="900"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Address
+                        </h3>
+                        <p className="text-gray-400 text-[1rem]">
+                          Plot Number - 708, Second Floor , JLPL , Industrial
+                          Area , Sector 82 <br />
+                          Mohali, 160062
+                          <br />
+                          Punjab, INDIA
+                        </p>
+                      </div>
+                      <div
+                        className="appear-animation sub-title22"
+                        data-appear-animation="fadeInUpShorter"
+                        data-appear-animation-delay="1100"
+                      >
+                        <h3 className="font-bold text-gray-800 text-[1rem] mb-1">
+                          Email
+                        </h3>
+                        <a
+                          href="mailto:******************************.com"
+                          className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
+                        >
+                          ******************************.com
+                        </a>
+                        <br />
+                        <a
+                          href="mailto:"
+                          className="text-color-default text-color-hover-primary text-decoration-underline mb-4"
+                        ></a>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
               <div className="col-lg-5">
                 <div className="row">
                   <div className="col-md-12 map-view">
-                  <div className="py-5 my-5 hidden lg:block">
-                    <iframe
-                      itemprop="hasMap"
-                      width="100%"
-                      height="300"
-                      style={{ border: "0", width: "100%" }}
-                      frameborder="0"
-                      scrolling="no"
-                      marginheight="0"
-                      marginwidth="0"
-                      src="https://maps.google.com/maps?q=28.47002178030715,77.00397228607972&hl=es;z=14&output=embed"
-                    ></iframe>{" "}
+                    <div className="py-5 my-5 hidden lg:block">
+                      <iframe
+                        itemprop="hasMap"
+                        width="100%"
+                        height="300"
+                        style={{ border: "0", width: "100%" }}
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?q=28.47002178030715,77.00397228607972&hl=es;z=14&output=embed"
+                      ></iframe>{" "}
                     </div>
                     <div className="pt-[3.5rem] pb-[4.5rem] md:pt-[3.5rem] md:pb-[5rem] block lg:hidden">
-                    <iframe
-                      itemprop="hasMap"
-                      width="100%"
-                      height="300"
-                      style={{ border: "0", width: "100%" }}
-                      frameborder="0"
-                      scrolling="no"
-                      marginheight="0"
-                      marginwidth="0"
-                      src="https://maps.google.com/maps?q=28.47002178030715,77.00397228607972&hl=es;z=14&output=embed"
-                    ></iframe>{" "}
+                      <iframe
+                        itemprop="hasMap"
+                        width="100%"
+                        height="300"
+                        style={{ border: "0", width: "100%" }}
+                        frameborder="0"
+                        scrolling="no"
+                        marginheight="0"
+                        marginwidth="0"
+                        src="https://maps.google.com/maps?q=28.47002178030715,77.00397228607972&hl=es;z=14&output=embed"
+                      ></iframe>{" "}
                     </div>
                   </div>
                 </div>
@@ -431,7 +428,7 @@ const Contact = () => {
             <div className="row pb-2 mb-4">
               <div className="col">
                 <div className="d-flex text-left mb-2">
-                  <div className="overflow-hidden flex items-center items-end gap-3">
+                  <div className="overflow-hidden flex items-center gap-3">
                     <div className="w-16 h-[3px] bg-[#0d6efd] git"></div>
                     <h2
                       className="text-[#0d6efd] font-bold text-[1.2rem] mb-0 git2"
@@ -615,7 +612,7 @@ const Contact = () => {
               Please check your email for the confirmation.
             </p>
             <button
-              className="ml-auto mt-2 font-semibold border border-[#0d6efd] text-xs sm:text-base text-[#0d6efd] bg-white shadow-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FCAB64] py-1 px-2 sm:py-2 sm:px-4 rounded-full border border-[#FCAB64]"
+              className="ml-auto mt-2 font-semibold border border-[#0d6efd] text-xs sm:text-base text-[#0d6efd] bg-white shadow-none focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#FCAB64] py-1 px-2 sm:py-2 sm:px-4 rounded-full"
               onClick={toggleConfirmation}
             >
               Close

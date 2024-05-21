@@ -9,6 +9,7 @@ const Navbar = () => {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
+  const [ptValue, setPtValue] = useState("1rem");
 
   const handleDropdownToggle = () => {
     setIsDropdownOpen2((prevState) => !prevState);
@@ -27,10 +28,9 @@ const Navbar = () => {
   };
 
   const location = useLocation();
-  const [activeItem, setActiveItem] = useState("Home");
+  const [activeItem, setActiveItem] = useState("Gallery");
 
   useEffect(() => {
-    // Update activeItem state based on the current pathname
     const pathname = location.pathname;
     if (pathname === "/") {
       setActiveItem("Home");
@@ -56,6 +56,12 @@ const Navbar = () => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
 
+      const scrollDirection = currentScrollPos > prevScrollPos ? "down" : "up";
+
+      const paddingChange = scrollDirection === "down" ? ".5rem" : "1rem";
+
+      setPtValue(paddingChange);
+
       setVisible(currentScrollPos === 0);
 
       setPrevScrollPos(currentScrollPos);
@@ -68,30 +74,30 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="flex h-[206px] md:h-[183px] ">
+      <div className="navcontrol flex h-[206px] md:h-[183px] ">
         <header
           id="header"
           className={`fixed top-0 left-0 right-0 bg-white header-effect-shrink mb-0 z-[10000]`}
         >
-          <div className="header-body header-body-bottom-border border-top-0 pb-4">
+          <div className="header-body header-body-bottom-border border-top-0 pb-0">
             <motion.div
               className="header-top navbar header-top-bottom-containered-border pt-2 pb-0"
-              initial={{ y: -100, opacity: 0 }}
-              animate={{ y: visible ? 0 : -100, opacity: visible ? 1 : 0 }}
-              transition={{ type: "tween", duration: 0.3 }}
+              initial={{ y: -50, opacity: 0 }}
+              animate={{ y: visible ? 0 : -50, opacity: visible ? 1 : 0 }}
+              transition={{ type: "tween", duration: 0.3, ease: "easeIn" }}
             >
               <AnimatePresence>
                 {visible && (
                   <div className="container">
                     <div className={`header-row flex w-full justify-between`}>
                       <div className="header-column flex items-center">
-                        <div className="header-row flex w-full items-center justify-between">
+                        <div className="header-row flex items-center justify-between">
                           <ul className="header-social-icons flex gap-1 items-center mb-0 justify-between social-icons social-icons-clean social-icons-medium position-relative right-7">
                             <li className="social-icons-facebook">
                               <a
                                 href="https://www.facebook.com/keystoneinteriordesign"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#1877F2] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#1877F2] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
                                 <i className="icon fab fa-facebook-f "></i>
                               </a>
@@ -100,16 +106,25 @@ const Navbar = () => {
                               <a
                                 href="https://twitter.com/Keystoneidesign"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#1DA1F2] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#000000] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
-                                <i className="icon fab fa-twitter"></i>
+                                <svg
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  width="13"
+                                  height="13"
+                                  fill="currentColor"
+                                  class="bi bi-twitter-x"
+                                  viewBox="0 0 16 16"
+                                >
+                                  <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z" />
+                                </svg>
                               </a>
                             </li>{" "}
                             <li className="social-icons-instagram">
                               <a
                                 href="https://www.instagram.com/keystoneinterior"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#FCAF45] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#FCAF45] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
                                 <i className="icon fab fa-instagram"></i>
                               </a>
@@ -118,7 +133,7 @@ const Navbar = () => {
                               <a
                                 href="https://www.linkedin.com/company/keystone-interior"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#0077b5] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#0077b5] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
                                 <i className="icon fab fa-linkedin-in"></i>
                               </a>
@@ -127,7 +142,7 @@ const Navbar = () => {
                               <a
                                 href="https://www.youtube.com/channel/UClN_l_ICNWbIdUjXzFEeMoQ"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#FF0000] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#FF0000] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
                                 <i className="icon fab fa-youtube"></i>
                               </a>
@@ -136,7 +151,7 @@ const Navbar = () => {
                               <a
                                 href="https://goo.gl/maps/KeA8fk4YjHAGWNjr7"
                                 target="_blank"
-                                className="w-8 h-8 lg:w-10 lg:h-10 no-underline hover:bg-[#34A853] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
+                                className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#34A853] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
                                 <i className="icon fab fa-google"></i>
                               </a>
@@ -171,7 +186,13 @@ const Navbar = () => {
                 )}
               </AnimatePresence>
             </motion.div>
-            <div className="header-container container pt-3">
+            <div
+              style={{
+                paddingTop: `${ptValue}`,
+                transition: "padding-top 0.7s ease",
+              }}
+              className="header-container container pb-3"
+            >
               <div className="header-row flex items-center justify-between">
                 <div className="header-column">
                   <div className="header-row">
@@ -209,8 +230,8 @@ const Navbar = () => {
                         <nav className="">
                           <ul className="nav nav-pills" id="mainNav">
                             <li>
-                              <Link
-                                to="/"
+                              <a
+                                href="/"
                                 className={`nav-link font-medium hover:text-#0d6efd ${
                                   activeItem === "Home"
                                     ? "text-[#0d6efd]"
@@ -219,11 +240,11 @@ const Navbar = () => {
                                 onClick={() => handleItemClick("Home")}
                               >
                                 Home
-                              </Link>
+                              </a>
                             </li>
                             <li>
-                              <Link
-                                to="/about"
+                              <a
+                                href="/about"
                                 className={`nav-link font-medium hover:text-#0d6efd ${
                                   activeItem === "About"
                                     ? "text-[#0d6efd]"
@@ -232,15 +253,15 @@ const Navbar = () => {
                                 onClick={() => handleItemClick("About")}
                               >
                                 About Us
-                              </Link>
+                              </a>
                             </li>
                             <li
                               className="relative"
                               onMouseEnter={handleMouseEnter}
                               onMouseLeave={handleMouseLeave}
                             >
-                              <Link
-                                to="#"
+                              <a
+                                href="#"
                                 className={`nav-link font-medium hover:text-#0d6efd ${
                                   activeItem === "Service"
                                     ? "text-[#0d6efd]"
@@ -249,16 +270,15 @@ const Navbar = () => {
                                 onClick={(e) => handleItemClick("Service", e)}
                               >
                                 Service
-                              </Link>
+                              </a>
                               {isDropdownOpen && (
-                                <ul
-                                  className="pt-[34px] absolute bg-white shadow-md px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center"
-                                >
+                                <ul className="pt-[34px] absolute bg-white shadow-md px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center">
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
-                                    <a style={{
-                                    borderTop: "4px solid",
-                                    borderTopColor: "#0d6efd",
-                                  }}
+                                    <a
+                                      style={{
+                                        borderTop: "4px solid",
+                                        borderTopColor: "#0d6efd",
+                                      }}
                                       href="/service/residential/1g2076/"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
                                       title="RESIDENTIAL"
@@ -282,8 +302,8 @@ const Navbar = () => {
                               )}
                             </li>
                             <li>
-                              <Link
-                                to="/gallery"
+                              <a
+                                href="/gallery"
                                 className={`nav-link font-medium hover:text-#0d6efd ${
                                   activeItem === "Gallery"
                                     ? "text-[#0d6efd]"
@@ -292,11 +312,11 @@ const Navbar = () => {
                                 onClick={() => handleItemClick("Gallery")}
                               >
                                 Gallery
-                              </Link>
+                              </a>
                             </li>
                             <li>
-                              <Link
-                                to="/contact"
+                              <a
+                                href="/contact"
                                 className={`nav-link font-medium hover:text-#0d6efd ${
                                   activeItem === "Contact"
                                     ? "text-[#0d6efd]"
@@ -305,7 +325,7 @@ const Navbar = () => {
                                 onClick={() => handleItemClick("Contact")}
                               >
                                 Contact
-                              </Link>
+                              </a>
                             </li>
                           </ul>
                         </nav>
