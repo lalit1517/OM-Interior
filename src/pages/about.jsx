@@ -62,7 +62,6 @@ const About = () => {
           content="OM Interior, interior design, architecture, civil engineering, India"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://www.ominteriors.com/about" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="language" content="English" />
         <meta name="author" content="ominteriors.com" />
