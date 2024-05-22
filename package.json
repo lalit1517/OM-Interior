@@ -26,6 +26,7 @@
     "pnltri": "^2.1.1",
     "react-device-detect": "^2.2.3",
     "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
     "react-intersection-observer": "^9.5.3",
     "react-photo-album": "^2.3.1",
     "react-scroll": "^1.9.0",

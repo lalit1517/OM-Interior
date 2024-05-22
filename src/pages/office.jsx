@@ -13,32 +13,83 @@ import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import Thumbnails from "yet-another-react-lightbox/plugins/thumbnails";
 import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import "yet-another-react-lightbox/plugins/thumbnails.css";
+import { Helmet } from "react-helmet";
 
 import photos from "../components/photos";
 
 const Office = () => {
-
   useEffect(() => {
+    const tl = gsap.timeline({
+      defaults: {
+        opacity: 0,
+        ease: "linear",
+        duration: 1,
+      },
+    });
 
-    const tl=gsap.timeline({
-      defaults:{
-          opacity:0,
-          ease:"linear",
-          duration:1
+    tl.fromTo(
+      ".offices",
+      { y: 50, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
       }
-  });
-  
-  tl.fromTo(".offices",{y:50, opacity:0}, {
-      y:0,
-      opacity:1,
-  })
+    );
+  }, []);
 
-}, []);
-  
   const [index, setIndex] = useState(-1);
 
   return (
     <div>
+      <Helmet>
+        <title>Gallery - OM INTERIOR</title>
+        <meta
+          name="keywords"
+          content="OM Interior, interior design, architecture, civil engineering, India"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://www.ominteriors.com/gallery" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="language" content="English" />
+        <meta name="author" content="ominteriors.com" />
+        <meta name="document-type" content="Public" />
+        <meta name="document-rating" content="Safe for Kids" />
+        <meta name="Expires" content="never" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="geo.region" content="IN" />
+        <meta name="State" content="Haryana" />
+        <meta name="City" content="Gurugram" />
+        <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
+        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+        <meta
+          name="address"
+          content="C-33A, SURYA VIHAR OPPOSITE SECTOR-4, GURUGRAM, HARYANA 122001, INDIA"
+        />
+        <meta
+          name="google-site-verification"
+          content="your_google_site_verification_code"
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="your_facebook_domain_verification_code"
+        />
+        <meta name="Copyright" content="© 2024, www.ominteriors.com" />
+        <meta
+          property="og:title"
+          content="Gallery - Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="http://www.ominteriors.com/gallery"
+        />
+        <meta
+          property="og:description"
+          content="OM Interior is a growing architecture, interior design, and civil engineering firm in India. We are renowned for our design excellence, innovation, and sustainability."
+        />
+        <meta property="og:site_name" content="OM INTERIOR" />
+      </Helmet>
+
       <Navbar />
 
       <div role="main" className="main bg-[#F2F2F2]">

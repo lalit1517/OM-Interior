@@ -266,7 +266,6 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                onClick={(e) => handleItemClick("Service", e)}
                               >
                                 Service
                               </a>

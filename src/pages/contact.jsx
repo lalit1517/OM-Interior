@@ -7,6 +7,7 @@ import { FaCheckCircle } from "react-icons/fa";
 import axios from "axios";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   const [name, setName] = useState("");
@@ -147,6 +148,55 @@ const Contact = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>Contact - OM INTERIOR</title>
+        <meta
+          name="keywords"
+          content="OM Interior, interior design, architecture, civil engineering, India"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://www.ominteriors.com/about-us" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="language" content="English" />
+        <meta name="author" content="ominteriors.com" />
+        <meta name="document-type" content="Public" />
+        <meta name="document-rating" content="Safe for Kids" />
+        <meta name="Expires" content="never" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="geo.region" content="IN" />
+        <meta name="State" content="Haryana" />
+        <meta name="City" content="Gurugram" />
+        <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
+        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+        <meta
+          name="address"
+          content="C-33A, SURYA VIHAR OPPOSITE SECTOR-4, GURUGRAM, HARYANA 122001, INDIA"
+        />
+        <meta
+          name="google-site-verification"
+          content="your_google_site_verification_code"
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="your_facebook_domain_verification_code"
+        />
+        <meta name="Copyright" content="© 2024, www.ominteriors.com" />
+        <meta
+          property="og:title"
+          content="Contact - Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="http://www.ominteriors.com/about"
+        />
+        <meta
+          property="og:description"
+          content="OM Interior is a growing architecture, interior design, and civil engineering firm in India. We are renowned for our design excellence, innovation, and sustainability."
+        />
+        <meta property="og:site_name" content="OM INTERIOR" />
+      </Helmet>
+
       <Navbar />
 
       <div role="main" className="main bg-[#F2F2F2]">

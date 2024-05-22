@@ -3,23 +3,22 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
-
   useEffect(() => {
-    const mediaQuery = window.matchMedia('(min-width: 768px)');
+    const mediaQuery = window.matchMedia("(min-width: 768px)");
 
     const handleMediaChange = (e) => {
       if (e.matches) {
-
         gsap.registerPlugin(ScrollTrigger);
-        
+
         const tl = gsap.timeline({
           defaults: {
             opacity: 0,
             ease: "linear",
-            duration: 0.7
-          }
+            duration: 0.7,
+          },
         });
 
         const tl1 = gsap.timeline({
@@ -137,217 +136,261 @@ const Home = () => {
           },
         });
 
-        tl.fromTo(".section1-part1", { y: 40, opacity: 0 }, {
-          y: 0,
-          opacity: 1
-        }, 0) 
-        
-        tl.fromTo(".section1-part2", { y: 40, opacity: 0 }, {
-          y: 0,
-          opacity: 1
-        }, 0.6) 
-        
-        tl.fromTo(".section1-part3", { y: 40, opacity: 0 }, {
-          y: 0,
-          opacity: 1
-        }, 1.2)
+        tl.fromTo(
+          ".section1-part1",
+          { y: 40, opacity: 0 },
+          {
+            y: 0,
+            opacity: 1,
+          },
+          0
+        );
+
+        tl.fromTo(
+          ".section1-part2",
+          { y: 40, opacity: 0 },
+          {
+            y: 0,
+            opacity: 1,
+          },
+          0.6
+        );
+
+        tl.fromTo(
+          ".section1-part3",
+          { y: 40, opacity: 0 },
+          {
+            y: 0,
+            opacity: 1,
+          },
+          1.2
+        );
 
         tl1.fromTo(
           ".mobilesection2-part1",
           { x: 40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl1.fromTo(
           ".mobilesection2-part2",
           { x: -40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl111.fromTo(
           ".mobilesection2-part3",
           { x: 40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl111.fromTo(
           ".mobilesection2-part4",
           { x: -40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl2.fromTo(
           ".section2-part1",
           { x: 40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl2.fromTo(
           ".section2-part2",
           { x: -40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl3.fromTo(
           ".section3-part1",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl3.fromTo(
           ".section3-part2",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.4
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0.4
         );
 
         tl3.fromTo(
           ".section3-part3",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.5
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0.5
         );
 
         tl4.fromTo(
           ".section3-part4",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1
         );
 
         tl5.fromTo(
           ".section5-part1",
           { x: -50, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl5.fromTo(
           ".section5-part2",
           { x: -20, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }
         );
 
         tl5.fromTo(
           ".section5-part3",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.2
         );
 
         tl5.fromTo(
           ".section5-part4",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.6
         );
 
         tl5.fromTo(
           ".section5-part5",
           { x: 40, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          2
         );
 
         tl6.fromTo(
           ".section5-part6",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          2
         );
 
         tl7.fromTo(
           ".section6-part1",
           { x: -50, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl7.fromTo(
           ".section6-part2",
           { x: -20, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }
         );
 
         tl7.fromTo(
           ".section6-part3",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.6
         );
 
         tl7.fromTo(
           ".section6-part4",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          2
         );
 
         tl8.fromTo(
           ".section6-part5",
           { y: 100, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl9.fromTo(
           ".section7-part1",
           { x: -50, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+          { x: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl9.fromTo(
           ".section7-part2",
           { x: -20, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }
         );
 
         tl9.fromTo(
           ".section7-part3",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.6
         );
 
         tl9.fromTo(
           ".section7-part4",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          2
         );
 
         tl9.fromTo(
           ".section7-part5",
           { x: -80, opacity: 0 },
-          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }
         );
 
         tl10.fromTo(
           ".section7-part6",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 },0
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0
         );
 
         tl10.fromTo(
           ".section7-part7",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.8
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          0.8
         );
 
         tl11.fromTo(
           ".section7-part8",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.2
         );
 
         tl11.fromTo(
           ".section7-part9",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          1.6
         );
 
         tl12.fromTo(
           ".section7-part10",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          2
         );
 
         tl12.fromTo(
           ".section7-part11",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2.4
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          2.4
         );
 
         tl13.fromTo(
           ".section7-part12",
           { y: 40, opacity: 0 },
-          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 3
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },
+          3
         );
       }
     };
@@ -356,14 +399,63 @@ const Home = () => {
     handleMediaChange(mediaQuery);
 
     // Add listener
-    mediaQuery.addEventListener('change', handleMediaChange);
+    mediaQuery.addEventListener("change", handleMediaChange);
 
     // Cleanup
-    return () => mediaQuery.removeEventListener('change', handleMediaChange);
+    return () => mediaQuery.removeEventListener("change", handleMediaChange);
   }, []);
 
   return (
     <div>
+      <Helmet>
+        <title>OM INTERIOR</title>
+        <meta
+          name="keywords"
+          content="OM Interior, interior design, architecture, civil engineering, India"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="http://www.ominteriors.com" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="language" content="English" />
+        <meta name="author" content="ominteriors.com" />
+        <meta name="document-type" content="Public" />
+        <meta name="document-rating" content="Safe for Kids" />
+        <meta name="Expires" content="never" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="geo.region" content="IN" />
+        <meta name="State" content="Haryana" />
+        <meta name="City" content="Gurugram" />
+        <meta
+          name="geo.position"
+          content="28.47002178030715, 77.00397228607972"
+        />
+        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+        <meta
+          name="address"
+          content="C-33A, SURYA VIHAR OPPOSITE SECTOR-4, GURUGRAM, HARYANA 122001, INDIA"
+        />
+        <meta
+          name="google-site-verification"
+          content="your_google_site_verification_code"
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="your_facebook_domain_verification_code"
+        />
+        <meta name="Copyright" content="© 2024, www.ominteriors.com" />
+        <meta
+          property="og:title"
+          content="Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://www.ominteriors.com" />
+        <meta
+          property="og:description"
+          content="OM Interior is a growing architecture, interior design, and civil engineering firm in India. We are renowned for our design excellence, innovation, and sustainability."
+        />
+        <meta property="og:site_name" content="OM INTERIOR" />
+      </Helmet>
+
       <Navbar />
       <div className="body">
         <div role="main" className="main">
@@ -755,12 +847,13 @@ const Home = () => {
                     much more alluring and glamorous.{" "}
                   </p>
                   <div className="section5-part6 scroll-trigger5">
-                  <a
-                    href="/about"
-                    class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation"
-                  >
-                    READ MORE
-                  </a></div>
+                    <a
+                      href="/about"
+                      class="btn btn-primary btn-modern font-weight-bold text-3 px-5 py-3 appear-animation"
+                    >
+                      READ MORE
+                    </a>
+                  </div>
                 </div>
                 <div class="col-sm-10 col-lg-6 offset-sm-1 ps-sm-5 ps-lg-0">
                   <div class="position-relative">
@@ -944,12 +1037,12 @@ const Home = () => {
                   </div>
 
                   <div className="scroll-trigger12 section7-part12">
-                  <a
-                    href="https://www.keystoneinteriordesign.com/contact-us/"
-                    class="btn  btn-primary btn-modern font-weight-bold  text-3 px-5 py-3 appear-animation"
-                  >
-                    Meet Us{" "}
-                  </a>
+                    <a
+                      href="https://www.keystoneinteriordesign.com/contact-us/"
+                      class="btn  btn-primary btn-modern font-weight-bold  text-3 px-5 py-3 appear-animation"
+                    >
+                      Meet Us{" "}
+                    </a>
                   </div>
                 </div>
               </div>
