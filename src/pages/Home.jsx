@@ -7,346 +7,360 @@ import Footer from "../components/Footer/footer";
 const Home = () => {
 
   useEffect(() => {
+    const mediaQuery = window.matchMedia('(min-width: 768px)');
 
-    gsap.registerPlugin(ScrollTrigger);
+    const handleMediaChange = (e) => {
+      if (e.matches) {
 
-    const tl = gsap.timeline({
-      defaults: {
-        opacity: 0,
-        ease: "linear",
-        duration: 0.7
+        gsap.registerPlugin(ScrollTrigger);
+        
+        const tl = gsap.timeline({
+          defaults: {
+            opacity: 0,
+            ease: "linear",
+            duration: 0.7
+          }
+        });
+
+        const tl1 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger1",
+            start: "top 60%",
+            once: true,
+            duration: -1,
+          },
+        });
+
+        const tl111 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger11",
+            start: "top 60%",
+            once: true,
+            duration: -1,
+          },
+        });
+
+        const tl2 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger",
+            start: "top 80%",
+            once: true,
+            duration: -1,
+          },
+        });
+
+        const tl3 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger2",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl4 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger3",
+            start: "top 75%",
+            once: true,
+          },
+        });
+
+        const tl5 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger4",
+            start: "top 75%",
+            once: true,
+          },
+        });
+
+        const tl6 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger5",
+            start: "top 70%",
+            once: true,
+          },
+        });
+
+        const tl7 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger6",
+            start: "top 50%",
+            once: true,
+          },
+        });
+
+        const tl8 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger7",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl9 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger8",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl10 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger9",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl11 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger10",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl12 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger11",
+            start: "top 60%",
+            once: true,
+          },
+        });
+
+        const tl13 = gsap.timeline({
+          scrollTrigger: {
+            trigger: ".scroll-trigger12",
+            start: "top 90%",
+            once: true,
+          },
+        });
+
+        tl.fromTo(".section1-part1", { y: 40, opacity: 0 }, {
+          y: 0,
+          opacity: 1
+        }, 0) 
+        
+        tl.fromTo(".section1-part2", { y: 40, opacity: 0 }, {
+          y: 0,
+          opacity: 1
+        }, 0.6) 
+        
+        tl.fromTo(".section1-part3", { y: 40, opacity: 0 }, {
+          y: 0,
+          opacity: 1
+        }, 1.2)
+
+        tl1.fromTo(
+          ".mobilesection2-part1",
+          { x: 40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl1.fromTo(
+          ".mobilesection2-part2",
+          { x: -40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl111.fromTo(
+          ".mobilesection2-part3",
+          { x: 40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl111.fromTo(
+          ".mobilesection2-part4",
+          { x: -40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl2.fromTo(
+          ".section2-part1",
+          { x: 40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl2.fromTo(
+          ".section2-part2",
+          { x: -40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl3.fromTo(
+          ".section3-part1",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl3.fromTo(
+          ".section3-part2",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.4
+        );
+
+        tl3.fromTo(
+          ".section3-part3",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.5
+        );
+
+        tl4.fromTo(
+          ".section3-part4",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1
+        );
+
+        tl5.fromTo(
+          ".section5-part1",
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl5.fromTo(
+          ".section5-part2",
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+        );
+
+        tl5.fromTo(
+          ".section5-part3",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
+        );
+
+        tl5.fromTo(
+          ".section5-part4",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+        );
+
+        tl5.fromTo(
+          ".section5-part5",
+          { x: 40, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+        );
+
+        tl6.fromTo(
+          ".section5-part6",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+        );
+
+        tl7.fromTo(
+          ".section6-part1",
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl7.fromTo(
+          ".section6-part2",
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+        );
+
+        tl7.fromTo(
+          ".section6-part3",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+        );
+
+        tl7.fromTo(
+          ".section6-part4",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+        );
+
+        tl8.fromTo(
+          ".section6-part5",
+          { y: 100, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl9.fromTo(
+          ".section7-part1",
+          { x: -50, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
+        );
+
+        tl9.fromTo(
+          ".section7-part2",
+          { x: -20, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+        );
+
+        tl9.fromTo(
+          ".section7-part3",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+        );
+
+        tl9.fromTo(
+          ".section7-part4",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+        );
+
+        tl9.fromTo(
+          ".section7-part5",
+          { x: -80, opacity: 0 },
+          { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
+        );
+
+        tl10.fromTo(
+          ".section7-part6",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 },0
+        );
+
+        tl10.fromTo(
+          ".section7-part7",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.8
+        );
+
+        tl11.fromTo(
+          ".section7-part8",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
+        );
+
+        tl11.fromTo(
+          ".section7-part9",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
+        );
+
+        tl12.fromTo(
+          ".section7-part10",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
+        );
+
+        tl12.fromTo(
+          ".section7-part11",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2.4
+        );
+
+        tl13.fromTo(
+          ".section7-part12",
+          { y: 40, opacity: 0 },
+          { y: 0, opacity: 1, ease: "linear", duration: 1 }, 3
+        );
       }
-    });
+    };
 
-    const tl1 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger1",
-        start: "top 60%",
-        once: true,
-        duration: -1,
-      },
-    });
+    // Initial check
+    handleMediaChange(mediaQuery);
 
-    const tl111 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger11",
-        start: "top 60%",
-        once: true,
-        duration: -1,
-      },
-    });
+    // Add listener
+    mediaQuery.addEventListener('change', handleMediaChange);
 
-    const tl2 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger",
-        start: "top 80%",
-        once: true,
-        duration: -1,
-      },
-    });
-
-    const tl3 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger2",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl4 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger3",
-        start: "top 75%",
-        once: true,
-      },
-    });
-
-    const tl5 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger4",
-        start: "top 75%",
-        once: true,
-      },
-    });
-
-    const tl6 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger5",
-        start: "top 70%",
-        once: true,
-      },
-    });
-
-    const tl7 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger6",
-        start: "top 50%",
-        once: true,
-      },
-    });
-
-    const tl8 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger7",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl9 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger8",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl10 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger9",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl11 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger10",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl12 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger11",
-        start: "top 60%",
-        once: true,
-      },
-    });
-
-    const tl13 = gsap.timeline({
-      scrollTrigger: {
-        trigger: ".scroll-trigger12",
-        start: "top 90%",
-        once: true,
-      },
-    });
-  
-    tl.fromTo(".section1-part1", { y: 40, opacity: 0 }, {
-      y: 0,
-      opacity: 1
-    }, 0) 
-    
-    tl.fromTo(".section1-part2", { y: 40, opacity: 0 }, {
-      y: 0,
-      opacity: 1
-    }, 0.6) 
-    
-    tl.fromTo(".section1-part3", { y: 40, opacity: 0 }, {
-      y: 0,
-      opacity: 1
-    }, 1.2)
-
-    tl1.fromTo(
-      ".mobilesection2-part1",
-      { x: 40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl1.fromTo(
-      ".mobilesection2-part2",
-      { x: -40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl111.fromTo(
-      ".mobilesection2-part3",
-      { x: 40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl111.fromTo(
-      ".mobilesection2-part4",
-      { x: -40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl2.fromTo(
-      ".section2-part1",
-      { x: 40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl2.fromTo(
-      ".section2-part2",
-      { x: -40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl3.fromTo(
-      ".section3-part1",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl3.fromTo(
-      ".section3-part2",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.4
-    );
-
-    tl3.fromTo(
-      ".section3-part3",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.5
-    );
-
-    tl4.fromTo(
-      ".section3-part4",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1
-    );
-
-    tl5.fromTo(
-      ".section5-part1",
-      { x: -50, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl5.fromTo(
-      ".section5-part2",
-      { x: -20, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
-    );
-
-    tl5.fromTo(
-      ".section5-part3",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
-    );
-
-    tl5.fromTo(
-      ".section5-part4",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
-    );
-
-    tl5.fromTo(
-      ".section5-part5",
-      { x: 40, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 2
-    );
-
-    tl6.fromTo(
-      ".section5-part6",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
-    );
-
-    tl7.fromTo(
-      ".section6-part1",
-      { x: -50, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl7.fromTo(
-      ".section6-part2",
-      { x: -20, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
-    );
-
-    tl7.fromTo(
-      ".section6-part3",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
-    );
-
-    tl7.fromTo(
-      ".section6-part4",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
-    );
-
-    tl8.fromTo(
-      ".section6-part5",
-      { y: 100, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl9.fromTo(
-      ".section7-part1",
-      { x: -50, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 0
-    );
-
-    tl9.fromTo(
-      ".section7-part2",
-      { x: -20, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
-    );
-
-    tl9.fromTo(
-      ".section7-part3",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
-    );
-
-    tl9.fromTo(
-      ".section7-part4",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
-    );
-
-    tl9.fromTo(
-      ".section7-part5",
-      { x: -80, opacity: 0 },
-      { x: 0, opacity: 1, ease: "linear", duration: 1 }, 
-    );
-
-    tl10.fromTo(
-      ".section7-part6",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 },0
-    );
-
-    tl10.fromTo(
-      ".section7-part7",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 0.8
-    );
-
-    tl11.fromTo(
-      ".section7-part8",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.2
-    );
-
-    tl11.fromTo(
-      ".section7-part9",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 1.6
-    );
-
-    tl12.fromTo(
-      ".section7-part10",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2
-    );
-
-    tl12.fromTo(
-      ".section7-part11",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 2.4
-    );
-
-    tl13.fromTo(
-      ".section7-part12",
-      { y: 40, opacity: 0 },
-      { y: 0, opacity: 1, ease: "linear", duration: 1 }, 3
-    );
-  
-  }, []);  
+    // Cleanup
+    return () => mediaQuery.removeEventListener('change', handleMediaChange);
+  }, []);
 
   return (
     <div>
