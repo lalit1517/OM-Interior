@@ -261,8 +261,7 @@ const Navbar = () => {
                               onMouseLeave={handleMouseLeave}
                             >
                               <a
-                                href="#"
-                                className={`nav-link font-medium hover:text-#0d6efd ${
+                                className={`nav-link cursor-pointer font-medium hover:text-#0d6efd ${
                                   activeItem === "Service"
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
@@ -272,7 +271,7 @@ const Navbar = () => {
                                 Service
                               </a>
                               {isDropdownOpen && (
-                                <ul className="pt-[34px] absolute bg-white shadow-md px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center">
+                                <ul className="pt-[34px] absolute bg-white px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center">
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
                                       style={{
