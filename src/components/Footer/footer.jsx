@@ -21,7 +21,7 @@ const Footer = () => {
                   architecture, interior design, civil engineering firm in
                   India...
                   <a
-                    href="/about-us/"
+                    href="/about"
                     className="text-decoration-none text-gray-400"
                   >
                     Read More
