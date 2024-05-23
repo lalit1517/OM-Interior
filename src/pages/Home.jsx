@@ -75,7 +75,7 @@ const Home = () => {
         const tl6 = gsap.timeline({
           scrollTrigger: {
             trigger: ".scroll-trigger5",
-            start: "top 70%",
+            start: "top 80%",
             once: true,
           },
         });
@@ -83,7 +83,7 @@ const Home = () => {
         const tl7 = gsap.timeline({
           scrollTrigger: {
             trigger: ".scroll-trigger6",
-            start: "top 50%",
+            start: "top 70%",
             once: true,
           },
         });
@@ -91,7 +91,7 @@ const Home = () => {
         const tl8 = gsap.timeline({
           scrollTrigger: {
             trigger: ".scroll-trigger7",
-            start: "top 60%",
+            start: "top 70%",
             once: true,
           },
         });
@@ -122,7 +122,7 @@ const Home = () => {
 
         const tl12 = gsap.timeline({
           scrollTrigger: {
-            trigger: ".scroll-trigger11",
+            trigger: ".scroll-triggerlast",
             start: "top 60%",
             once: true,
           },
@@ -1023,7 +1023,7 @@ const Home = () => {
                       more.
                     </p>
                   </div>
-                  <div class="marker-box scroll-trigger11">
+                  <div class="marker-box scroll-triggerlast">
                     <h4 class="text-color-secondary section7-part10 font-weight-semibold line-height-3 text-5 mb-1 appear-animation">
                       Valuation Services for Property
                     </h4>
