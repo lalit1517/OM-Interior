@@ -90,7 +90,7 @@ const Office = () => {
         <meta property="og:site_name" content="OM INTERIOR" />
       </Helmet>
 
-      <Navbar />
+      {index === -1 && <Navbar />}
 
       <div role="main" className="main bg-[#F2F2F2]">
         <section className="page-header page-header-modern page-header-lg bg-[#0f0d00] py-12 border-0 my-0">

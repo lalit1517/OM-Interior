@@ -34,7 +34,7 @@ const Footer = () => {
               </h4>
               <ul className="list list-unstyled mb-0 text-gray-400 text-[0.9rem]">
                 <li className="mb-1">
-                C-33A, SURYA VIHAR OPPOSITE SECTOR-4
+                C-33A, SURYA VIHAR, OPPOSITE SECTOR-4
                 </li>
                 <li className="mb-1">Gurugram, 122001</li>
                 <li className="mb-0">Haryana, INDIA</li>

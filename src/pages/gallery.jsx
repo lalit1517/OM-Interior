@@ -145,7 +145,7 @@ const Gallery = () => {
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
                             alt="Living Room Design Gallery"
                           />
-                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
+                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
                               Offices
                             </div>
@@ -171,7 +171,7 @@ const Gallery = () => {
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
                             alt="Living Room Design Gallery"
                           />
-                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
+                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
                               Restaurants
                             </div>
@@ -197,7 +197,7 @@ const Gallery = () => {
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
                             alt="Living Room Design Gallery"
                           />
-                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white flex justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
+                          <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
                               Residentials
                             </div>
