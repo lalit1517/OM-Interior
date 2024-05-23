@@ -81,7 +81,7 @@ const Office = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="https://om-interior.vercel.app/gallery"
+          content="https://om-interior.vercel.app/gallery-offices"
         />
         <meta
           property="og:description"
