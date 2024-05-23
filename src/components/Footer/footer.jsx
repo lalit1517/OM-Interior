@@ -176,7 +176,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
               <div className="w-fit lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
                 <p className="text-3 mb-0">
-                  OM INTERIOR. All Rights Reserved
+                  OM INTERIOR. 
                 </p>
               </div>
               <div className="w-fit text-right lg:w-1/2 lg:text-lg-end">
