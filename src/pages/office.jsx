@@ -48,7 +48,7 @@ const Office = () => {
           content="OM Interior, interior design, architecture, civil engineering, India"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="http://www.ominteriors.com/gallery" />
+        <link rel="canonical" href="https://om-interior.vercel.app/gallery-offices" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="language" content="English" />
         <meta name="author" content="ominteriors.com" />
@@ -73,7 +73,7 @@ const Office = () => {
           name="facebook-domain-verification"
           content="your_facebook_domain_verification_code"
         />
-        <meta name="Copyright" content="© 2024, www.ominteriors.com" />
+        <meta name="Copyright" content="© 2024, https://om-interior.vercel.app" />
         <meta
           property="og:title"
           content="Gallery - Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
@@ -81,7 +81,7 @@ const Office = () => {
         <meta property="og:type" content="website" />
         <meta
           property="og:url"
-          content="http://www.ominteriors.com/gallery"
+          content="https://om-interior.vercel.app/gallery"
         />
         <meta
           property="og:description"
