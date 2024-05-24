@@ -75,7 +75,7 @@ const Home = () => {
         const tl6 = gsap.timeline({
           scrollTrigger: {
             trigger: ".scroll-trigger5",
-            start: "top 80%",
+            start: "top bottom",
             once: true,
           },
         });
@@ -1038,7 +1038,7 @@ const Home = () => {
 
                   <div className="scroll-trigger12 section7-part12">
                     <a
-                      href="https://www.keystoneinteriordesign.com/contact-us/"
+                      href="/contact"
                       class="btn  btn-primary btn-modern font-weight-bold  text-3 px-5 py-3 appear-animation"
                     >
                       Meet Us{" "}
