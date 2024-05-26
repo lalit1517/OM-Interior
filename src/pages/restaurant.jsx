@@ -40,7 +40,7 @@ const Restaurant = () => {
   return (
     <div>
       <Helmet>
-        <title>Restaurant Photo Gallery - OM INTERIOR</title>
+        <title>Restaurant Gallery - OM INTERIOR</title>
         <meta
           name="description"
           content="Explore our restaurant design gallery at OM INTERIOR. We showcase innovative and aesthetic restaurant interior designs."
