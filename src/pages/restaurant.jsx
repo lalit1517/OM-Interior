@@ -38,7 +38,7 @@ const Restaurant = () => {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div>
+    <div className="restaurant-gallery">
       <Helmet>
         <title>Restaurant Photo Gallery - OM INTERIOR</title>
         <meta

@@ -40,7 +40,7 @@ const Office = () => {
   const [index, setIndex] = useState(-1);
 
   return (
-    <div>
+    <div className="office-gallery">
       <Helmet>
         <title>Office Photo Gallery - OM INTERIOR</title>
         <meta
