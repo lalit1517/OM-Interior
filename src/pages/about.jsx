@@ -195,7 +195,7 @@ const About = () => {
   <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
   <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
   <meta name="address" content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India" />
-  <meta name="google-site-verification" content="your_google_site_verification_code" />
+  <meta name="google-site-verification" content="google606c1421732f2791" />
   <meta name="facebook-domain-verification" content="your_facebook_domain_verification_code" />
   <meta name="copyright" content="© 2024, OM INTERIOR" />
   <meta property="og:title" content="About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India" />
