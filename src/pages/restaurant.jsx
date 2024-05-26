@@ -112,7 +112,7 @@ const Restaurant = () => {
                     className="text-[0.5rem] font-bold text-gray-400"
                   />
 
-                  <div className="text-gray-400 font-medium">PHOTO GALLERY</div>
+                  <div className="text-gray-400 font-medium">GALLERY</div>
                 </div>
               </div>
             </div>
@@ -133,7 +133,6 @@ const Restaurant = () => {
               open={index >= 0}
               index={index}
               close={() => setIndex(-1)}
-              // enable optional lightbox plugins
               plugins={[Fullscreen, Slideshow, Thumbnails, Zoom]}
             />
           </div>
