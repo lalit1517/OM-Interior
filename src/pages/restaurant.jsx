@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useRef } from "react";
-import { Link } from "react-router-dom";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -44,7 +43,7 @@ const Restaurant = () => {
         <title>Restaurant Photo Gallery - OM INTERIOR</title>
         <meta
           name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, India"
+          content="OM Interior, interior design, architecture, Photo Gallery, civil engineering, India"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://om-interior.vercel.app/gallery-restaurants" />
