@@ -42,7 +42,7 @@ const Office = () => {
   return (
     <div>
       <Helmet>
-        <title>Gallery - OM INTERIOR</title>
+        <title>Office Photo Gallery - OM INTERIOR</title>
         <meta
           name="keywords"
           content="OM Interior, interior design, architecture, civil engineering, India"

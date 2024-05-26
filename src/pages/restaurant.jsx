@@ -41,7 +41,7 @@ const Restaurant = () => {
   return (
     <div>
       <Helmet>
-        <title>Gallery - OM INTERIOR</title>
+        <title>Restaurant Photo Gallery - OM INTERIOR</title>
         <meta
           name="keywords"
           content="OM Interior, interior design, architecture, civil engineering, India"
