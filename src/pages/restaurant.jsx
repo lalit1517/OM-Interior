@@ -42,6 +42,10 @@ const Restaurant = () => {
       <Helmet>
         <title>Restaurant Photo Gallery - OM INTERIOR</title>
         <meta
+          name="description"
+          content="Explore our restaurant design gallery at OM INTERIOR. We showcase innovative and aesthetic restaurant interior designs."
+        />
+        <meta
           name="keywords"
           content="OM Interior, interior design, architecture, Photo Gallery, civil engineering, India"
         />
@@ -65,7 +69,7 @@ const Restaurant = () => {
         />
         <meta
           name="google-site-verification"
-          content="your_google_site_verification_code"
+          content="your_google_site_vearification_code"
         />
         <meta
           name="facebook-domain-verification"
