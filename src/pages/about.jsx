@@ -55,6 +55,122 @@ const About = () => {
 
   return (
     <div>
+      {/* <Helmet>
+        <title>
+          About Us - OM INTERIOR | Innovative Design & Sustainable Architecture
+        </title>
+        <meta
+          name="description"
+          content="Discover OM INTERIOR, a leading firm in innovative interior design, architecture, and civil engineering in India. Our commitment to excellence, sustainability, and client satisfaction sets us apart."
+        />
+        <meta
+          name="keywords"
+          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="canonical" href="https://om-interior.vercel.app/about" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="language" content="English" />
+        <meta name="author" content="ominteriors.com" />
+        <meta name="document-type" content="Public" />
+        <meta name="document-rating" content="Safe for Kids" />
+        <meta name="expires" content="never" />
+        <meta name="handheldfriendly" content="True" />
+        <meta name="geo.region" content="IN" />
+        <meta name="geo.placename" content="Gurugram" />
+        <meta
+          name="geo.position"
+          content="28.47002178030715, 77.00397228607972"
+        />
+        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+        <meta
+          name="address"
+          content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India"
+        />
+        <meta
+          name="google-site-verification"
+          content="your_google_site_verification_code"
+        />
+        <meta
+          name="facebook-domain-verification"
+          content="your_facebook_domain_verification_code"
+        />
+        <meta
+          name="copyright"
+          content="© 2024, https://om-interior.vercel.app"
+        />
+        <meta
+          property="og:title"
+          content="About Us - OM INTERIOR | Innovative Design & Sustainable Architecture"
+        />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:url"
+          content="https://om-interior.vercel.app/about"
+        />
+        <meta
+          property="og:description"
+          content="OM INTERIOR is a top architecture, interior design, and civil engineering firm in India, known for our innovative designs, sustainability practices, and client satisfaction."
+        />
+        <meta property="og:site_name" content="OM INTERIOR" />
+        <meta
+          property="og:image"
+          content="https://om-interior.vercel.app/path-to-your-og-image.jpg"
+        />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="About Us - OM INTERIOR | Innovative Design & Sustainable Architecture"
+        />
+        <meta
+          name="twitter:description"
+          content="Discover OM INTERIOR, a leading firm in innovative interior design, architecture, and civil engineering in India. Our commitment to excellence, sustainability, and client satisfaction sets us apart."
+        />
+        <meta
+          name="twitter:image"
+          content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg"
+        />
+      </Helmet> */}
+
+      {/* <Helmet>
+  <title>About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India</title>
+  <meta
+    name="description"
+    content="Explore OM INTERIOR, a premier interior design, architecture, and civil engineering firm in Gurugram, India. Our innovative and sustainable design solutions redefine modern spaces. Learn about our commitment to excellence and client satisfaction."
+  />
+  <meta
+    name="keywords"
+    content="OM Interior, interior design firm, sustainable architecture, civil engineering services, innovative design, modern interiors, Gurugram interior design, top interior designers India, eco-friendly architecture, client-focused design"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://om-interior.vercel.app/about" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="language" content="English" />
+  <meta name="author" content="OM INTERIOR" />
+  <meta name="document-type" content="Public" />
+  <meta name="document-rating" content="Safe for Kids" />
+  <meta name="expires" content="never" />
+  <meta name="handheldfriendly" content="True" />
+  <meta name="geo.region" content="IN" />
+  <meta name="geo.placename" content="Gurugram" />
+  <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
+  <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+  <meta name="address" content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India" />
+  <meta name="google-site-verification" content="your_google_site_verification_code" />
+  <meta name="facebook-domain-verification" content="your_facebook_domain_verification_code" />
+  <meta name="copyright" content="© 2024, OM INTERIOR" />
+  <meta property="og:title" content="About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://om-interior.vercel.app/about" />
+  <meta property="og:description" content="OM INTERIOR is a top architecture, interior design, and civil engineering firm in India, known for our innovative designs, sustainability practices, and client satisfaction." />
+  <meta property="og:site_name" content="OM INTERIOR" />
+  <meta property="og:image" content="https://om-interior.vercel.app/path-to-your-og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India" />
+  <meta name="twitter:description" content="Explore OM INTERIOR, a premier interior design, architecture, and civil engineering firm in Gurugram, India. Our innovative and sustainable design solutions redefine modern spaces. Learn about our commitment to excellence and client satisfaction." />
+  <meta name="twitter:image" content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg" />
+</Helmet> */}
+
       <Helmet>
         <title>
           About Us - OM INTERIOR | Leading Interior Design & Sustainable
