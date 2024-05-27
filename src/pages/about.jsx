@@ -171,7 +171,7 @@ const About = () => {
   <meta name="twitter:image" content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg" />
 </Helmet> */}
 
-<Helmet>
+{/* <Helmet>
   <title>About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India</title>
   <meta
     name="description"
@@ -208,7 +208,7 @@ const About = () => {
   <meta name="twitter:title" content="About Us - OM INTERIOR | Leading Interior Design & Sustainable Architecture in India" />
   <meta name="twitter:description" content="Explore OM INTERIOR, India's premier firm for interior design, sustainable architecture, and civil engineering. Renowned for innovative designs and exceptional client service." />
   <meta name="twitter:image" content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg" />
-</Helmet>
+</Helmet> */}
 
 
 
