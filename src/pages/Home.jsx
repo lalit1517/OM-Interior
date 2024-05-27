@@ -817,7 +817,7 @@ const Home = () => {
                               <img
                                 src="https://img.icons8.com/emoji/48/null/pine-decoration.png"
                                 class="img-fluid icon-featured"
-                                alt="Interior Design"
+                                alt="Om-Interior/Home Page - What we Offer - card1"
                               />
                             </div>
                             <h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3 text-gray-800">
@@ -840,7 +840,7 @@ const Home = () => {
                               <img
                                 src="https://img.icons8.com/fluency/48/null/planning-skill.png"
                                 class="img-fluid icon-featured"
-                                alt="Space Planning"
+                                alt="Om-Interior/Home Page - What we Offer - card2"
                               />
                             </div>
                             <h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3 text-gray-800">
@@ -863,7 +863,7 @@ const Home = () => {
                               <img
                                 src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-woodwork-diy-flaticons-lineal-color-flat-icons.png"
                                 class="img-fluid icon-featured"
-                                alt="Design Wood Work "
+                                alt="Om-Interior/Home Page - What we Offer - card3"
                               />
                             </div>
                             <h3 class="text-transform-none font-weight-bold custom-font-size-1 mb-3 text-gray-800">
