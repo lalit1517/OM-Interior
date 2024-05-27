@@ -57,7 +57,8 @@ const About = () => {
     <div>
       <Helmet>
         <title>
-          About Us - OM INTERIOR
+          About Us - OM INTERIOR | Leading Interior Design & Sustainable
+          Architecture in India
         </title>
         <meta
           name="description"
@@ -65,7 +66,7 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="OM INTERIOR, interior, design, interior design, architecture, interior design India, sustainable architecture, civil engineering India, innovative design, modern interiors, top interior designers, eco-friendly design, Gurugram architecture, best interior design firm India, luxury interiors, residential design, commercial interiors, architectural excellence, design consultation"
+          content="OM INTERIOR, interior design India, sustainable architecture, civil engineering India, innovative design, modern interiors, top interior designers, eco-friendly design, Gurugram architecture, best interior design firm India, luxury interiors, residential design, commercial interiors, architectural excellence, design consultation"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://om-interior.vercel.app/about" />
@@ -85,7 +86,7 @@ const About = () => {
         <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
         <meta
           name="address"
-          content="C-33A, Surya Vihar, Opposite Sector-4, Gurugram, Haryana 122001, India"
+          content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India"
         />
         <meta
           name="google-site-verification"
@@ -112,7 +113,7 @@ const About = () => {
         <meta property="og:site_name" content="OM INTERIOR" />
         <meta
           property="og:image"
-          content="https://om-interior.vercel.app/logo.png"
+          content="https://om-interior.vercel.app/path-to-your-og-image.jpg"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
