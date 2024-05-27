@@ -408,53 +408,71 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>OM INTERIOR</title>
-        <meta
-          name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, India"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://om-interior.vercel.app" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="language" content="English" />
-        <meta name="author" content="ominteriors.com" />
-        <meta name="document-type" content="Public" />
-        <meta name="document-rating" content="Safe for Kids" />
-        <meta name="Expires" content="never" />
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="geo.region" content="IN" />
-        <meta name="State" content="Haryana" />
-        <meta name="City" content="Gurugram" />
-        <meta
-          name="geo.position"
-          content="28.47002178030715, 77.00397228607972"
-        />
-        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
-        <meta
-          name="address"
-          content="C-33A, SURYA VIHAR OPPOSITE SECTOR-4, GURUGRAM, HARYANA 122001, INDIA"
-        />
-        <meta
-          name="google-site-verification"
-          content="your_google_site_verification_code"
-        />
-        <meta
-          name="facebook-domain-verification"
-          content="your_facebook_domain_verification_code"
-        />
-        <meta name="Copyright" content="© 2024, https://om-interior.vercel.app" />
-        <meta
-          property="og:title"
-          content="Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://om-interior.vercel.app" />
-        <meta
-          property="og:description"
-          content="OM Interior is a growing architecture, interior design, and civil engineering firm in India. We are renowned for our design excellence, innovation, and sustainability."
-        />
-        <meta property="og:site_name" content="OM INTERIOR" />
-      </Helmet>
+  <title>OM INTERIOR | Leading Interior Design, Architecture, and Civil Engineering Firm in India</title>
+  <meta
+    name="description"
+    content="OM INTERIOR is a top-rated interior design, architecture, and civil engineering firm in India, offering innovative solutions and sustainable designs. Based in Gurugram, Haryana, we excel in residential and commercial projects."
+  />
+  <meta
+    name="keywords"
+    content="OM Interior, interior design, architecture, civil engineering, India, sustainable design, innovative interiors, residential design, commercial design, Gurugram, Haryana, luxury interiors, top architects India, design excellence, modern interiors, eco-friendly design"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://om-interior.vercel.app" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="language" content="English" />
+  <meta name="author" content="OM INTERIOR" />
+  <meta name="document-type" content="Public" />
+  <meta name="document-rating" content="Safe for Kids" />
+  <meta name="expires" content="never" />
+  <meta name="handheldfriendly" content="True" />
+  <meta name="geo.region" content="IN" />
+  <meta name="geo.placename" content="Gurugram" />
+  <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
+  <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
+  <meta name="address" content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India" />
+  <meta name="google-site-verification" content="your_google_site_verification_code" />
+  <meta name="facebook-domain-verification" content="your_facebook_domain_verification_code" />
+  <meta name="copyright" content="© 2024, OM INTERIOR" />
+  <meta property="og:title" content="OM INTERIOR | Leading Interior Design, Architecture, and Civil Engineering Firm in India" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://om-interior.vercel.app" />
+  <meta property="og:description" content="Discover OM INTERIOR, India's premier firm for innovative interior design, sustainable architecture, and civil engineering. Renowned for design excellence and client satisfaction." />
+  <meta property="og:site_name" content="OM INTERIOR" />
+  <meta property="og:image" content="https://om-interior.vercel.app/path-to-your-og-image.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="OM INTERIOR | Leading Interior Design, Architecture, and Civil Engineering Firm in India" />
+  <meta name="twitter:description" content="Explore OM INTERIOR, India's top firm for interior design, sustainable architecture, and civil engineering. Known for innovative designs and client satisfaction." />
+  <meta name="twitter:image" content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg" />
+  <script type="application/ld+json">
+    {`{
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "OM INTERIOR",
+      "url": "https://om-interior.vercel.app",
+      "logo": "https://om-interior.vercel.app/path-to-your-logo.jpg",
+      "sameAs": [
+        "https://www.facebook.com/your-facebook-page",
+        "https://twitter.com/your-twitter-handle",
+        "https://www.instagram.com/your-instagram-handle"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-123-456-7890",
+        "contactType": "Customer Service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C-33A, Surya Vihar Opposite Sector-4",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122001",
+        "addressCountry": "IN"
+      }
+    }`}
+  </script>
+</Helmet>
+
 
       <Navbar />
       <div className="body">
