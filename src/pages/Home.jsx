@@ -894,7 +894,7 @@ const Home = () => {
                       <img
                         src="https://glimageurl.golocall.com/gl-features/737892_keystoneinteriordesign_1676335655.jpeg"
                         class="img-fluid section5-part5 custom-box-shadow-1 appear-animation"
-                        alt="About US"
+                        alt="Om-Interior/Home Page - About"
                       />
                     </div>
                   </div>
@@ -992,7 +992,7 @@ const Home = () => {
                         class="img-fluid custom-box-shadow-1 appear-animation"
                         data-appear-animation="fadeInUpShorter"
                         data-appear-animation-delay="1200"
-                        alt="Our Process"
+                        alt="Om-Interior/Home Page - Process"
                       />
                     </div>
                   </div>
@@ -1009,7 +1009,7 @@ const Home = () => {
                     <div>
                       <img
                         src="https://glimageurl.golocall.com/gl-features/950990_keystoneinteriordesign_1676343440.jpeg"
-                        alt="We Create Value For Your Objects With Designs"
+                        alt="Om-Interior/Home Page - Best Interior Designer"
                         className="section7-part5"
                       />
                     </div>

@@ -203,7 +203,7 @@ const Navbar = () => {
                           className="img-fluid"
                           width="200"
                           height="100%"
-                          alt="Keystone Interior Design  Interior Designers in Chandigarh,Interior Designers in Mohali,Interior Designers in Panchkula,Office interior designers in Mohali,Hospital interior designers in Chandigarh,Best interior designer in mohali"
+                          alt="OM-INTERIOR-LOGO"
                         />
                       </a>
                     </div>
