@@ -407,21 +407,28 @@ const Home = () => {
 
   return (
     <div>
+      
       <Helmet>
-        <title>OM INTERIOR</title>
+        <title>
+          Home - OM INTERIOR
+        </title>
         <meta
           name="description"
-          content="OM INTERIOR is a top-rated interior design, architecture, and civil engineering firm in India, offering innovative solutions and sustainable designs. Based in Gurugram, Haryana, we excel in residential and commercial projects."
+          content="OM INTERIOR is one of the growing and influential
+                  architecture, interior design, civil engineering firm in
+                  India. We are renowned for our design practice and our
+                  steadfast commitment to design excellence innovation and
+                  sustainability"
         />
         <meta
           name="keywords"
-          content="OM Interior, om interior, om interiors, interior design, interior, design, gurugram, delhi, delhi ncr, architecture, civil engineering, sustainable design, innovative interiors, residential design, commercial design, Gurugram, Haryana, luxury interiors, top architects India, design excellence, modern interiors, eco-friendly design, space planning, project management"
+          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://om-interior.vercel.app" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="language" content="English" />
-        <meta name="author" content="OM INTERIOR" />
+        <meta name="author" content="https://om-interior.vercel.app" />
         <meta name="document-type" content="Public" />
         <meta name="document-rating" content="Safe for Kids" />
         <meta name="expires" content="never" />
@@ -435,112 +442,51 @@ const Home = () => {
         <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
         <meta
           name="address"
-          content="C-33A, Surya Vihar, Opposite Sector-4, Gurugram, Haryana 122001, India"
+          content="C-33A, Surya Vihar Opposite Sector-4, Gurugram, Haryana 122001, India"
         />
         <meta
           name="google-site-verification"
-          content="google606c1421732f2791"
+          content="your_google_site_verification_code"
         />
         <meta
           name="facebook-domain-verification"
           content="your_facebook_domain_verification_code"
         />
-        <meta name="copyright" content="© 2024, OM INTERIOR" />
-
-        {/* <!-- Open Graph Tags --> */}
-        <meta property="og:title" content="OM INTERIOR" />
+        <meta
+          name="copyright"
+          content="© 2024, https://om-interior.vercel.app"
+        />
+        <meta
+          property="og:title"
+          content="Home - OM INTERIOR | Innovative Design & Sustainable Architecture"
+        />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://om-interior.vercel.app" />
+        <meta
+          property="og:url"
+          content="https://om-interior.vercel.app"
+        />
         <meta
           property="og:description"
-          content="OM INTERIOR is a leading interior design, architecture, and civil engineering firm in India, known for our innovative and sustainable designs."
+          content="OM INTERIOR is a top architecture, interior design, and civil engineering firm in India, known for our innovative designs, sustainability practices, and client satisfaction."
         />
         <meta property="og:site_name" content="OM INTERIOR" />
         <meta
           property="og:image"
           content="https://om-interior.vercel.app/logo.png"
         />
-
-        {/* <!-- Twitter Card Tags --> */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="OM INTERIOR" />
+        <meta
+          name="twitter:title"
+          content="About Us - OM INTERIOR | Innovative Design & Sustainable Architecture"
+        />
         <meta
           name="twitter:description"
-          content="Explore OM INTERIOR, India's premier firm for interior design, sustainable architecture, and civil engineering. Renowned for design excellence and client satisfaction."
+          content="Discover OM INTERIOR, a leading firm in innovative interior design, architecture, and civil engineering in India. Our commitment to excellence, sustainability, and client satisfaction sets us apart."
         />
         <meta
           name="twitter:image"
           content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg"
         />
-
-        {/* <!-- Instagram and Other Social Media Tags --> */}
-        <meta
-          property="og:image"
-          content="https://om-interior.vercel.app/path-to-your-og-image.jpg"
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
-        <meta name="instagram:card" content="summary_large_image" />
-        <meta name="instagram:title" content="OM INTERIOR" />
-        <meta
-          name="instagram:description"
-          content="Discover OM INTERIOR on Instagram, a leading firm in interior design, architecture, and civil engineering in India. Follow us for innovative and sustainable design inspirations."
-        />
-        <meta
-          name="instagram:image"
-          content="https://om-interior.vercel.app/path-to-your-instagram-image.jpg"
-        />
-        <meta name="instagram:site" content="@your_instagram_handle" />
-
-        {/* <!-- LinkedIn Tags --> */}
-        <meta
-          property="og:image"
-          content="https://om-interior.vercel.app/path-to-your-og-image.jpg"
-        />
-        <meta property="linkedin:card" content="summary_large_image" />
-        <meta property="linkedin:title" content="OM INTERIOR" />
-        <meta
-          property="linkedin:description"
-          content="Connect with OM INTERIOR on LinkedIn for the latest updates on our innovative interior design, architecture, and civil engineering projects in India."
-        />
-        <meta
-          property="linkedin:image"
-          content="https://om-interior.vercel.app/path-to-your-linkedin-image.jpg"
-        />
-
-        <meta name="robots" content="index, follow" />
-        <meta name="googlebot" content="index, follow" />
-        <meta name="bingbot" content="index, follow" />
-
-        {/* <!-- Structured Data (JSON-LD) --> */}
-        <script type="application/ld+json">
-          {`{
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "OM INTERIOR",
-      "url": "https://om-interior.vercel.app",
-      "logo": "https://om-interior.vercel.app/path-to-your-logo.jpg",
-      "sameAs": [
-        "https://www.facebook.com/your-facebook-page",
-        "https://twitter.com/your-twitter-handle",
-        "https://www.instagram.com/your-instagram-handle",
-        "https://www.linkedin.com/company/your-linkedin-company"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+91-914-915-9468",
-        "contactType": "Customer Service"
-      },
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "C-33A, Surya Vihar, Opposite Sector-4",
-        "addressLocality": "Gurugram",
-        "addressRegion": "Haryana",
-        "postalCode": "122001",
-        "addressCountry": "IN"
-      }
-    }`}
-        </script>
       </Helmet>
 
       <Navbar />

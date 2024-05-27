@@ -143,7 +143,7 @@ const Gallery = () => {
                           <img
                             src="./com.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
-                            alt="Living Room Design Gallery"
+                            alt="Offices Design Gallery"
                           />
                           <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
@@ -169,7 +169,7 @@ const Gallery = () => {
                           <img
                             src="./res-6.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
-                            alt="Living Room Design Gallery"
+                            alt="Restaurants Design Gallery"
                           />
                           <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">
@@ -195,7 +195,7 @@ const Gallery = () => {
                           <img
                             src="./com.png"
                             class="img-fluid transition-transform duration-500 group-hover:scale-125"
-                            alt="Living Room Design Gallery"
+                            alt="Residentials Design Gallery"
                           />
                           <div class="thumb-info-content hidden absolute inset-0 bg-black bg-opacity-50 text-white justify-center items-center group-hover:flex transition-opacity duration-600 ease-in-out">
                             <div class="thumb-info-title text-center font-bold text-[1.3rem] transition-all duration-500">

@@ -55,13 +55,17 @@ const About = () => {
 
   return (
     <div>
-      <Helmet>
+      {/* <Helmet>
         <title>
           About Us - OM INTERIOR | Innovative Design & Sustainable Architecture
         </title>
         <meta
           name="description"
-          content="Discover OM INTERIOR, a leading firm in innovative interior design, architecture, and civil engineering in India. Our commitment to excellence, sustainability, and client satisfaction sets us apart."
+          content="OM INTERIOR is one of the growing and influential
+                  architecture, interior design, civil engineering firm in
+                  India. We are renowned for our design practice and our
+                  steadfast commitment to design excellence innovation and
+                  sustainability"
         />
         <meta
           name="keywords"
@@ -130,7 +134,7 @@ const About = () => {
           name="twitter:image"
           content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg"
         />
-      </Helmet>
+      </Helmet> */}
 
       <Navbar />
 
@@ -190,7 +194,7 @@ const About = () => {
                   contributes to each project success.
                 </div>
                 <div>
-                  <img src="about-us.png" alt="Om-Interiors/About-Us" />
+                  <img src="about-us.png" alt="Om-Interior/About-Us" />
                 </div>
                 <div className="font-semibold text-gray-800">Our Process:</div>
                 <div>
