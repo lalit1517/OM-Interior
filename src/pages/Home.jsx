@@ -415,7 +415,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="OM Interior, interior design, interior, design, gurugram, delhi, delhi ncr, architecture, civil engineering, sustainable design, innovative interiors, residential design, commercial design, Gurugram, Haryana, luxury interiors, top architects India, design excellence, modern interiors, eco-friendly design, space planning, project management"
+          content="OM Interior, om interio, om interiors interior design, interior, design, gurugram, delhi, delhi ncr, architecture, civil engineering, sustainable design, innovative interiors, residential design, commercial design, Gurugram, Haryana, luxury interiors, top architects India, design excellence, modern interiors, eco-friendly design, space planning, project management"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://om-interior.vercel.app" />
