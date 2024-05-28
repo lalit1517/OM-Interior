@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app</loc>
+    <loc>https://om-interior.vercel.app</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app/about</loc>
+    <loc>https://om-interior.vercel.app/about</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app/gallery</loc>
+    <loc>https://om-interior.vercel.app/gallery</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app/contact</loc>
+    <loc>https://om-interior.vercel.app/contact</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app/gallery-offices</loc>
+    <loc>https://om-interior.vercel.app/gallery-offices</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://om-interior-gurgaon.vercel.app/gallery-restaurants</loc>
+    <loc>https://om-interior.vercel.app/gallery-restaurants</loc>
     <lastmod>2024-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

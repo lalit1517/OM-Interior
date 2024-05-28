@@ -20,7 +20,7 @@ const Home = () => {
         const timer = setTimeout(() => {
           setLoading(false);
           setFadeIn(true);
-        }, 3000);
+        }, 1500);
 
         return () => clearTimeout(timer);
       } else {
