@@ -193,7 +193,7 @@ const About = () => {
                   that bolsters the design and construction process and
                   contributes to each project success.
                 </div>
-                <div>
+                <div className="py-4">
                   <img src="about-us.png" alt="Om-Interior/About-Us" />
                 </div>
                 <div className="font-semibold text-gray-800">Our Process:</div>
