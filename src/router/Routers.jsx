@@ -1,6 +1,5 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
-import { Route, BrowserRouter as Router, Routes,Link } from 'react-router-dom'; // Import BrowserRouter as Router
+import { Route, BrowserRouter as Router, Routes,Link } from 'react-router-dom'; 
 import Home from '../pages/Home.jsx';
 import About from '../pages/about.jsx';
 import Contact from '../pages/contact.jsx';

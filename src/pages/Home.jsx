@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { CircularProgress, Box } from "@mui/material";
+import { Box } from "@mui/material";
 import Navbar from "../components/navbar/Navbar";
 import Footer from "../components/Footer/footer";
 import { Helmet } from "react-helmet";

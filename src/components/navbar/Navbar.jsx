@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -10,6 +9,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
   const [ptValue, setPtValue] = useState("1rem");
+  const [ptValue2, setPtValue2] = useState("34px");
 
   const handleDropdownToggle = () => {
     setIsDropdownOpen2((prevState) => !prevState);
@@ -60,7 +60,11 @@ const Navbar = () => {
 
       const paddingChange = scrollDirection === "down" ? ".5rem" : "1rem";
 
+      const paddingChange2 = scrollDirection === "down" ? "25px" : "33px";
+
       setPtValue(paddingChange);
+
+      setPtValue2(paddingChange2);
 
       setVisible(currentScrollPos === 0);
 
@@ -270,7 +274,7 @@ const Navbar = () => {
                                 Service
                               </a>
                               {isDropdownOpen && (
-                                <ul className="pt-[34px] absolute bg-white px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center">
+                                <ul style={{paddingTop: `${ptValue2}`}} className="absolute bg-white px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center">
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
                                       style={{
