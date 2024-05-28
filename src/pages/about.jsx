@@ -55,7 +55,7 @@ const About = () => {
 
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>
           About Us - OM INTERIOR | Innovative Design & Sustainable Architecture
         </title>
@@ -134,7 +134,7 @@ const About = () => {
           name="twitter:image"
           content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg"
         />
-      </Helmet> */}
+      </Helmet>
 
       <Navbar />
 
