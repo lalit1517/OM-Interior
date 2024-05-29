@@ -856,12 +856,12 @@ const Home = () => {
                           </div>
                         </div>
                       </div>
-                      <div class="col-md-8 col-lg-4">
+                      <div class="col-md-8 col-lg-4 mb-12 md:mb-0">
                         <div class="featured-box featured-box-primary featured-box-effect-5 appear-animation">
                           <div class="box-content text-center flex flex-col items-center">
                             <div class="custom-featured-icon-wrapper bg-primary w-fit p-8 border rounded-full mb-4">
                               <img
-                                src="https://img.icons8.com/external-flaticons-lineal-color-flat-icons/64/null/external-woodwork-diy-flaticons-lineal-color-flat-icons.png"
+                                src="https://img.icons8.com/fluency/48/null/planning-skill.png"
                                 class="img-fluid icon-featured"
                                 alt="Om-Interior/Home Page - What we Offer - card3"
                               />

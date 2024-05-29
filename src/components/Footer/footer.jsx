@@ -45,7 +45,7 @@ const Footer = () => {
                 Our Contacts
               </h4>
               <div className="feature-box feature-box-style-2 items-center mb-3 flex gap-2">
-                <div className="feature-box-icon border px-2.5 py-1.5 rounded-full inline-flex items-center justify-center border-red-700 h-full bg-[#0d6efd]">
+                <div className="feature-box-icon border p-2.5 rounded-full inline-flex items-center justify-center border-red-700 h-full bg-[#0d6efd]">
                   <i className="fas fa-phone text-base text-white"></i>
                 </div>
                 <div className="feature-box-info ps-2">
@@ -62,7 +62,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="feature-box feature-box-style-2 items-center mb-3 flex gap-2">
-                <div className="feature-box-icon px-2.5 py-1 border rounded-full inline-flex items-center justify-center border-red-700 h-full bg-[#0d6efd]">
+                <div className="feature-box-icon px-2.5 py-2 border rounded-full inline-flex items-center justify-center border-red-700 h-full bg-[#0d6efd]">
                   <i className="fab fa-whatsapp text-xl text-white"></i>
                 </div>
                 <div className="feature-box-info ps-2">
