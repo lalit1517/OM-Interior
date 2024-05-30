@@ -71,6 +71,7 @@ const Footer = () => {
                   </p>
                   <a
                     href="https://api.whatsapp.com/send/?phone=9149159468&text=Hi,+I+need+more+information+about+OM+Interior.+Please+contact+me."
+                    target="_blank"
                     className="text-uppercase text-white text-xl text-decoration-none text-5 font-weight-bold pb-0"
                   >
                     ******9468
@@ -117,7 +118,7 @@ const Footer = () => {
                 <li>
                   <a
                     className="text-gray-400 text-[0.9rem]"
-                    href="https://www.facebook.com/keystoneinteriordesign"
+                    href=""
                     target="_blank"
                   >
                     <i class="fab fa-facebook-f opacity-75 hover:scale-150 hover:opacity-100 transition-all"></i>
@@ -127,7 +128,7 @@ const Footer = () => {
                   {" "}
                   <a
                     className="text-gray-400 text-[0.9rem]"
-                    href="https://twitter.com/Keystoneidesign"
+                    href=""
                     target="_blank"
                   >
                     <div>
@@ -146,7 +147,7 @@ const Footer = () => {
                   {" "}
                   <a
                     className="text-gray-400 text-[0.9rem]"
-                    href="https://www.instagram.com/keystoneinterior"
+                    href=""
                     target="_blank"
                   >
                     <i class="fab fa-instagram opacity-75 hover:scale-150 hover:opacity-100 transition-all"></i>
@@ -156,7 +157,7 @@ const Footer = () => {
                   {" "}
                   <a
                     className="text-gray-400 text-[0.9rem]"
-                    href="https://www.linkedin.com/company/keystone-interior"
+                    href=""
                     target="_blank"
                   >
                     <i class="fab fa-linkedin-in opacity-75 hover:scale-150 hover:opacity-100 transition-all"></i>

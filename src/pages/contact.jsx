@@ -251,11 +251,11 @@ const Contact = () => {
                           Work Inquiries
                         </h3>
                         <a
-                          href="tel:+91******9529"
+                          href="tel:+919149159468"
                           onclick="webClickActivity('10','Contact Us Page Call','1')"
                           className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
                         >
-                          ******9529
+                          ******9468
                         </a>
                       </div>
                       <div
@@ -268,11 +268,12 @@ const Contact = () => {
                         </h3>
                         <a
                           title="WhatsApp Number"
-                          href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
+                          href="https://api.whatsapp.com/send/?phone=9149159468&text=Hi,+I+need+more+information+about+OM+Interior.+Please+contact+me."
+                          target="_blank"
                           onclick="webClickActivity('10','Contact Us WhatsApp','2')"
                           className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
                         >
-                          ******9529
+                          ******9468
                         </a>
                       </div>
                       <div
@@ -305,11 +306,11 @@ const Contact = () => {
                           Work Inquiries
                         </h3>
                         <a
-                          href="tel:+91******9529"
+                          href="tel:+919149159468"
                           onclick="webClickActivity('10','Contact Us Page Call','1')"
                           className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
                         >
-                          ******9529
+                          ******9468
                         </a>
                       </div>
                       <div
@@ -322,11 +323,11 @@ const Contact = () => {
                         </h3>
                         <a
                           title="WhatsApp Number"
-                          href="https://api.whatsapp.com/send/?phone=91******9529&text=Hi+need+more+information+about+Keystone+Interior+Design+Please+contact+me."
+                          href="https://api.whatsapp.com/send/?phone=9149159468&text=Hi,+I+need+more+information+about+OM+Interior.+Please+contact+me."
                           onclick="webClickActivity('10','Contact Us WhatsApp','2')"
                           className="d-inline-block text-gray-400 text-[1rem] text-decoration-none mb-4"
                         >
-                          ******9529
+                          ******9468
                         </a>
                       </div>
                       <div
@@ -361,11 +362,10 @@ const Contact = () => {
                           Address
                         </h3>
                         <p className="text-gray-400 text-[1rem]">
-                          Plot Number - 708, Second Floor , JLPL , Industrial
-                          Area , Sector 82 <br />
-                          Mohali, 160062
+                          C-33A, Surya Vihar, Opposite Sector-4, <br />
+                          Gurugram, 122001
                           <br />
-                          Punjab, INDIA
+                          Haryana, INDIA
                         </p>
                       </div>
                       <div
@@ -377,7 +377,7 @@ const Contact = () => {
                           Email
                         </h3>
                         <a
-                          href="mailto:******************************.com"
+                          href="mailto:lalitchauhan1517@gmail.com"
                           className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
                         >
                           ******************************.com
@@ -406,11 +406,10 @@ const Contact = () => {
                           Address
                         </h3>
                         <p className="text-gray-400 text-[1rem]">
-                          Plot Number - 708, Second Floor , JLPL , Industrial
-                          Area , Sector 82 <br />
-                          Mohali, 160062
+                        C-33A, Surya Vihar, Opposite Sector-4, <br />
+                          Gurugram, 122001
                           <br />
-                          Punjab, INDIA
+                          Haryana, INDIA
                         </p>
                       </div>
                       <div
@@ -422,7 +421,7 @@ const Contact = () => {
                           Email
                         </h3>
                         <a
-                          href="mailto:******************************.com"
+                          href="mailto:lalitchauhan1517@gmail.com"
                           className="text-gray-400 text-[1rem] text-decoration-underline mb-4"
                         >
                           ******************************.com

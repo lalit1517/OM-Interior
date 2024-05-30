@@ -99,7 +99,7 @@ const Navbar = () => {
                           <ul className="header-social-icons flex gap-1 items-center mb-0 justify-between social-icons social-icons-clean social-icons-medium position-relative right-7">
                             <li className="social-icons-facebook">
                               <a
-                                href="https://www.facebook.com/keystoneinteriordesign"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#1877F2] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -108,7 +108,7 @@ const Navbar = () => {
                             </li>{" "}
                             <li className="social-icons-twitter">
                               <a
-                                href="https://twitter.com/Keystoneidesign"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#000000] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -126,7 +126,7 @@ const Navbar = () => {
                             </li>{" "}
                             <li className="social-icons-instagram">
                               <a
-                                href="https://www.instagram.com/keystoneinterior"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#FCAF45] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -135,7 +135,7 @@ const Navbar = () => {
                             </li>{" "}
                             <li className="social-icons-linkedin">
                               <a
-                                href="https://www.linkedin.com/company/keystone-interior"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#0077b5] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -144,7 +144,7 @@ const Navbar = () => {
                             </li>
                             <li className="social-icons-youtube">
                               <a
-                                href="https://www.youtube.com/channel/UClN_l_ICNWbIdUjXzFEeMoQ"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#FF0000] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -153,7 +153,7 @@ const Navbar = () => {
                             </li>
                             <li className="social-icons-google">
                               <a
-                                href="https://goo.gl/maps/KeA8fk4YjHAGWNjr7"
+                                href=""
                                 target="_blank"
                                 className="w-8 h-8 lg:w-10 lg:h-10 icons-list no-underline hover:bg-[#34A853] text-[0.9rem] text-gray-800 hover:text-white border border-white rounded-full inline-flex items-center justify-center"
                               >
@@ -174,7 +174,7 @@ const Navbar = () => {
                       <div className="header-column justify-content-end">
                         <div className="header-row">
                           <a
-                            href="https://www.keystoneinteriordesign.com/contact-us/"
+                            href="/contact"
                             target="_blank"
                             className="custom-header-top-btn-style-1 bg-gray-800 btn btn-secondary font-weight-bold px-4 px-sm-5 py-3"
                             style={{ backgroundColor: "#333" }}
