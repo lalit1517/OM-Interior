@@ -451,10 +451,10 @@ const Home = () => {
           content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://om-interior.vercel.app" />
+        <link rel="canonical" href="https://ominterior.ind.in/" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="language" content="English" />
-        <meta name="author" content="https://om-interior.vercel.app" />
+        <meta name="author" content="https://ominterior.ind.in/" />
         <meta name="document-type" content="Public" />
         <meta name="document-rating" content="Safe for Kids" />
         <meta name="expires" content="never" />
@@ -480,14 +480,14 @@ const Home = () => {
         />
         <meta
           name="copyright"
-          content="© 2024, https://om-interior.vercel.app"
+          content="© 2024, https://ominterior.ind.in/"
         />
         <meta
           property="og:title"
           content="Home - OM INTERIOR | Innovative Design & Sustainable Architecture"
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://om-interior.vercel.app" />
+        <meta property="og:url" content="https://ominterior.ind.in/" />
         <meta
           property="og:description"
           content="OM INTERIOR is a top architecture, interior design, and civil engineering firm in India, known for our innovative designs, sustainability practices, and client satisfaction."
@@ -495,12 +495,12 @@ const Home = () => {
         <meta property="og:site_name" content="OM INTERIOR" />
         <meta
           property="og:image"
-          content="https://om-interior.vercel.app/logo.png"
+          content="https://ominterior.ind.in/logo.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="About Us - OM INTERIOR | Innovative Design & Sustainable Architecture"
+          content="Home - OM INTERIOR"
         />
         <meta
           name="twitter:description"
@@ -508,7 +508,7 @@ const Home = () => {
         />
         <meta
           name="twitter:image"
-          content="https://om-interior.vercel.app/path-to-your-twitter-image.jpg"
+          content="https://ominterior.ind.in/path-to-your-twitter-image.jpg"
         />
       </Helmet>
 

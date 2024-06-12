@@ -50,50 +50,20 @@ const Gallery = () => {
       <Helmet>
         <title>Gallery - OM INTERIOR</title>
         <meta
+          name="description"
+          content="OM INTERIOR is one of the growing and influential
+                  architecture, interior design, civil engineering firm in
+                  India. We are renowned for our design practice and our
+                  steadfast commitment to design excellence innovation and
+                  sustainability"
+        />
+        <meta
           name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, India"
+          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://om-interior.vercel.app/gallery" />
+        <link rel="canonical" href="https://ominterior.ind.in/gallery" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="language" content="English" />
-        <meta name="author" content="ominteriors.com" />
-        <meta name="document-type" content="Public" />
-        <meta name="document-rating" content="Safe for Kids" />
-        <meta name="Expires" content="never" />
-        <meta name="HandheldFriendly" content="True" />
-        <meta name="geo.region" content="IN" />
-        <meta name="State" content="Haryana" />
-        <meta name="City" content="Gurugram" />
-        <meta name="geo.position" content="28.47002178030715, 77.00397228607972" />
-        <meta name="ICBM" content="28.47002178030715, 77.00397228607972" />
-        <meta
-          name="address"
-          content="C-33A, SURYA VIHAR OPPOSITE SECTOR-4, GURUGRAM, HARYANA 122001, INDIA"
-        />
-        <meta
-          name="google-site-verification"
-          content="your_google_site_verification_code"
-        />
-        <meta
-          name="facebook-domain-verification"
-          content="your_facebook_domain_verification_code"
-        />
-        <meta name="Copyright" content="© 2024, https://om-interior.vercel.app" />
-        <meta
-          property="og:title"
-          content="Gallery - Om Interior | OM Interior is a growing architecture, interior design, and civil engineering firm in India..."
-        />
-        <meta property="og:type" content="website" />
-        <meta
-          property="og:url"
-          content="https://om-interior.vercel.app/gallery"
-        />
-        <meta
-          property="og:description"
-          content="OM Interior is a growing architecture, interior design, and civil engineering firm in India. We are renowned for our design excellence, innovation, and sustainability."
-        />
-        <meta property="og:site_name" content="OM INTERIOR" />
       </Helmet>
 
       <Navbar />
