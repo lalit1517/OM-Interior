@@ -34,7 +34,7 @@ const InteriorDesign = () => {
 
       <Navbar />
 
-      <div role="main" className="main bg-white">
+      <div role="main" className="main bg-[#F2F2F2]">
         <section className="page-header page-header-modern page-header-lg bg-[#0f0d00] py-12 border-0 my-0">
           <div className="container my-3">
             <div className="row">
@@ -100,7 +100,7 @@ const InteriorDesign = () => {
                 </div>
               </div>
               <div className="col-md-4">
-                <div className="border-[1px] border-gray-200 mt-10 md:mt-0">
+                <div className="border-[1px] border-gray-300 rounded-md mt-10 md:mt-0">
                   <div className="w-full text-center text-gray-800 font-medium px-4 pt-8 pb-4 text-xl">
                     Our Services
                   </div>

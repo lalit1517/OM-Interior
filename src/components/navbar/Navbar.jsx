@@ -178,7 +178,7 @@ const Navbar = () => {
                               {isDropdownOpen && (
                                 <ul
                                   style={{ paddingTop: `${ptValue2}` }}
-                                  className="absolute bg-white px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center"
+                                  className="absolute mx-auto bg-white w-60 px-0 z-[10000] hover:bg-gray-800 rounded-b-lg text-center"
                                 >
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
