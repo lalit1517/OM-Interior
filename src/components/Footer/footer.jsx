@@ -11,8 +11,8 @@ const Footer = () => {
       >
         <div className="container container-xl-custom pt-4 pb-3">
           <div className="flex flex-col md:flex-row gap-8 justify-between py-5">
-            <div className="md:max-w-[21%] mb-0">
-              <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
+            <div className="md:max-w-[21%] lg:max-w-[31%] mb-0">
+              <h4 className="font-weight-bold ls-0 text-base lg:text-xl mb-4">
                 OM INTERIOR
               </h4>
               <ul className="list list-unstyled mb-0">
@@ -29,7 +29,7 @@ const Footer = () => {
                 </li>
                 <li className="mb-0"></li>
               </ul>
-              <h4 className="font-weight-bold ls-0 mt-4 text-base lg:text-xl">
+              <h4 className="font-weight-bold ls-0 mt-4 text-base lg:text-xl mb-4">
                 Our Address
               </h4>
               <ul className="list list-unstyled mb-0 text-gray-400 text-[0.9rem]">
@@ -41,7 +41,7 @@ const Footer = () => {
               </ul>
             </div>
             <div className="w-fit mb-0">
-              <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
+              <h4 className="font-weight-bold ls-0 text-base lg:text-xl mb-4">
                 Our Contacts
               </h4>
               <div className="feature-box feature-box-style-2 items-center mb-3 flex gap-2">
@@ -85,33 +85,8 @@ const Footer = () => {
                 CONTACT US
               </a>
             </div>
-            <div className="w-fit">
-              <h4 className="font-weight-bold ls-0 text-base lg:text-xl">
-                About
-              </h4>
-              <ul className="list-unstyled mb-0">
-                <li className="mb-1">
-                  <a
-                    className="text-decoration-none text-gray-400 text-[0.9rem]"
-                    href="/about"
-                    title="About Us"
-                  >
-                    About Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    className="text-decoration-none text-gray-400 text-[0.9rem]"
-                    href="/contact"
-                    title="Contact Us"
-                  >
-                    Contact Us
-                  </a>
-                </li>
-              </ul>
-            </div>
-            <div class="w-fit lg:w-[13%]">
-              <h4 class="font-weight-bold ls-0 text-base lg:text-xl">
+            <div class="w-fit md:w-[20%] lg:w-[17%]">
+              <h4 class="font-weight-bold ls-0 text-base lg:text-xl mb-4">
                 Follow Us
               </h4>
               <ul class="social-icons social-icons-clean flex gap-10 mt-3 mb-0 md:gap-2 pl-0 justify-between social-icons-medium">
@@ -174,7 +149,7 @@ const Footer = () => {
                 <div className=" my-0 mb-4 bg-gray-200 h-[0.01rem]" />
               </div>
             </div>
-            <div className="flex flex-col md:flex-row items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
+            <div className="hidden md:flex flex-col md:flex-row items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
               <div className="w-fit lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
                 <p className="text-3 mb-0">
                   OM INTERIOR. 
