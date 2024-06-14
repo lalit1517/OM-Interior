@@ -301,7 +301,6 @@ const Home = () => {
             { y: 0, opacity: 1, ease: "linear", duration: 1 },
             0
           );
-
         }
       };
 
@@ -316,24 +315,20 @@ const Home = () => {
   return (
     <div>
       <Helmet>
-        <title>Home - OM INTERIOR</title>
+        <title>OM INTERIOR</title>
         <meta
           name="description"
-          content="OM INTERIOR is one of the growing and influential
-                  architecture, interior design, civil engineering firm in
-                  India. We are renowned for our design practice and our
-                  steadfast commitment to design excellence innovation and
-                  sustainability"
+          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail."
         />
         <meta
           name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
+          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, om interior Delhi NCR, om interior Delhi, om interior NCR, innovative interiors, design excellence"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://ominterior.ind.in/" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="language" content="English" />
-        <meta name="author" content="https://ominterior.ind.in/" />
+        <meta name="author" content="OM INTERIOR" />
         <meta name="document-type" content="Public" />
         <meta name="document-rating" content="Safe for Kids" />
         <meta name="expires" content="never" />
@@ -351,38 +346,77 @@ const Home = () => {
         />
         <meta
           name="google-site-verification"
-          content="your_google_site_verification_code"
+          content="kL1qjKVWCOabDhaB4CopI36fblIQV04wxZgH6iwKyHY"
         />
-        <meta
-          name="facebook-domain-verification"
-          content="your_facebook_domain_verification_code"
-        />
-        <meta name="copyright" content="© 2024, https://ominterior.ind.in/" />
+        <meta name="copyright" content="© 2024, OM INTERIOR" />
+
+        {/* Open Graph Meta Tags */}
         <meta
           property="og:title"
-          content="Home - OM INTERIOR | Innovative Design & Sustainable Architecture"
+          content="OM INTERIOR | Influential Architecture, Interior Design & Engineering Firm in India"
         />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://ominterior.ind.in/" />
         <meta
           property="og:description"
-          content="OM INTERIOR is a top architecture, interior design, and civil engineering firm in India, known for our innovative designs, sustainability practices, and client satisfaction."
+          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
         />
         <meta property="og:site_name" content="OM INTERIOR" />
         <meta
           property="og:image"
           content="https://ominterior.ind.in/logo.png"
         />
+
+        {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Home - OM INTERIOR" />
+        <meta
+          name="twitter:title"
+          content="OM INTERIOR | Influential Architecture, Interior Design & Engineering Firm in India"
+        />
         <meta
           name="twitter:description"
-          content="Discover OM INTERIOR, a leading firm in innovative interior design, architecture, and civil engineering in India. Our commitment to excellence, sustainability, and client satisfaction sets us apart."
+          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
         />
         <meta
           name="twitter:image"
-          content="https://ominterior.ind.in/path-to-your-twitter-image.jpg"
+          content="https://ominterior.ind.in/logo.png"
         />
+
+        {/* Structured Data */}
+        <script type="application/ld+json">
+          {`
+          {
+            "@context": "https://schema.org",
+            "@type": "Organization",
+            "url": "https://ominterior.ind.in",
+            "logo": "https://ominterior.ind.in/logo.png",
+            "name": "OM INTERIOR",
+            "description": "OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "telephone": "+91-91491-59468",
+              "contactType": "Customer Service"
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "C-33A, Surya Vihar Opposite Sector-4",
+              "addressLocality": "Gurugram",
+              "addressRegion": "Haryana",
+              "postalCode": "122001",
+              "addressCountry": "IN"
+            },
+            "areaServed": {
+              "@type": "Place",
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "28.47002178030715",
+                "longitude": "77.00397228607972"
+              },
+              "name": "Delhi NCR"
+            }
+          }
+        `}
+        </script>
       </Helmet>
 
       <Navbar />
@@ -406,12 +440,12 @@ const Home = () => {
                     <div className="row justify-content-center justify-content-lg-start pt-5 mt-5">
                       <div className="col-md-10 col-lg-12 text-center text-lg-end pe-lg-4 pt-12 mt-10">
                         <h1 className="section1-part1 text-white font-semibold line-height-4 text-10 mb-2 appear-animation">
-                        Transforming Spaces into Timeless Elegance
+                          Transforming Spaces into Timeless Elegance
                           <span className="font-weight-extra-bold custom-highlight-1 ws-nowrap p-1"></span>
                         </h1>
                         <div className="appear-animation">
                           <p className="section1-part2 custom-font-secondary font-weight-light  custom-font-size-1 text-white opacity-[0.8] my-4">
-                          Craft Lasting Impressions with Our Unique Spaces
+                            Craft Lasting Impressions with Our Unique Spaces
                           </p>
                         </div>
                         <a
@@ -722,7 +756,11 @@ const Home = () => {
                         Services we Offer{" "}
                       </p>
                       <p class="mb-0 section3-part3 appear-animation text-gray-400">
-                        We believe everyone deserves to be inspired by the spaces they inhabit. OM Interior has been transforming clients’ living and work environments. Based in Gurugram, we are a full-service interior design firm offering a wide range of services to all our clients.
+                        We believe everyone deserves to be inspired by the
+                        spaces they inhabit. OM Interior has been transforming
+                        clients’ living and work environments. Based in
+                        Gurugram, we are a full-service interior design firm
+                        offering a wide range of services to all our clients.
                       </p>
                     </div>
                   </div>
@@ -731,10 +769,7 @@ const Home = () => {
                       <div class="col-md-4 col-sm-6">
                         <div class="service_box">
                           <div class="service_img">
-                            <img
-                              src="interior-serve.png"
-                              alt="service 1"
-                            />
+                            <img src="interior-serve.png" alt="service 1" />
                           </div>
                           <div class="service_details">
                             <a href="/interior-design" className="no-underline">
@@ -745,7 +780,10 @@ const Home = () => {
                               with practicality, expertly crafted by our team to
                               reflect your unique vision
                             </p>
-                            <a href="/interior-design" class="btn-yellow no-underline">
+                            <a
+                              href="/interior-design"
+                              class="btn-yellow no-underline"
+                            >
                               LEARN MORE
                             </a>
                           </div>
@@ -754,13 +792,13 @@ const Home = () => {
                       <div class="col-md-4 col-sm-6">
                         <div class="service_box">
                           <div class="service_img">
-                            <img
-                              src="trunkey.png"
-                              alt="service 2"
-                            />
+                            <img src="trunkey.png" alt="service 2" />
                           </div>
                           <div class="service_details">
-                            <a href="/turnkey-solutions" className="no-underline">
+                            <a
+                              href="/turnkey-solutions"
+                              className="no-underline"
+                            >
                               <h2>Turnkey Solutions </h2>
                             </a>
                             <p className="h-[120px] sm:h-[280px] md:h-[250px] lg:h-[180px] xl:h-[120px]">
@@ -769,7 +807,10 @@ const Home = () => {
                               concentrate on your core business activities with
                               peace of mind.
                             </p>
-                            <a href="/turnkey-solutions" class="btn-yellow no-underline">
+                            <a
+                              href="/turnkey-solutions"
+                              class="btn-yellow no-underline"
+                            >
                               LEARN MORE
                             </a>
                           </div>
@@ -778,13 +819,13 @@ const Home = () => {
                       <div class="col-md-4 col-sm-6">
                         <div class="service_box">
                           <div class="service_img">
-                            <img
-                              src="construction.png"
-                              alt="service 3"
-                            />
+                            <img src="construction.png" alt="service 3" />
                           </div>
                           <div class="service_details">
-                            <a href="/construction-management" className="no-underline">
+                            <a
+                              href="/construction-management"
+                              className="no-underline"
+                            >
                               <h2>Construction Management</h2>
                             </a>
                             <p className="h-[120px] sm:h-[250px] md:h-[220px] lg:h-[150px] xl:h-[120px]">
@@ -841,10 +882,18 @@ const Home = () => {
                         </div>
                       </div>
                       <h3 class="text-color-secondary font-bold section6-part3 text-transform-none text-gray-900 text-6 my-4 appear-animation">
-                        We have elevated the art of interior design throughout the NCR region.
+                        We have elevated the art of interior design throughout
+                        the NCR region.
                       </h3>
                       <p class="mb-4 appear-animation section6-part4 text-gray-400">
-                        OM Interior is the premier luxury interior platform in the NCR region. We revolutionize interior design by setting new trends and redefining spaces. With a track record of excellence and innovation, our team delivers cutting-edge technology and customized solutions that cater to every client's needs. Our commitment to exceptional customer service ensures an unparalleled experience, making us a leader in the industry.
+                        OM Interior is the premier luxury interior platform in
+                        the NCR region. We revolutionize interior design by
+                        setting new trends and redefining spaces. With a track
+                        record of excellence and innovation, our team delivers
+                        cutting-edge technology and customized solutions that
+                        cater to every client's needs. Our commitment to
+                        exceptional customer service ensures an unparalleled
+                        experience, making us a leader in the industry.
                       </p>
                     </div>
                   </div>
