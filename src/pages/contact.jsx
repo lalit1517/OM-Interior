@@ -156,7 +156,7 @@ const Contact = () => {
         />
         <meta
           name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, sustainable design, innovative interiors, design excellence, OM INTERIOR India, OM INTERIOR Gurugram, OM INTERIOR, interior, om design"
+          content="OM Interior, om, interior, interiors, interior design, architecture, civil engineering, sustainable design, innovative interiors, design excellence, OM INTERIOR India, OM INTERIOR Gurugram, OM INTERIOR, interior, om design"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://ominterior.ind.in/contact" />
