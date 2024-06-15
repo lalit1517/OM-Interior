@@ -394,12 +394,12 @@ const Home = () => {
             "description": "OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
             "contactPoint": {
               "@type": "ContactPoint",
-              "telephone": "+91-91491-59468",
+              "telephone": "+91-98182-67341",
               "contactType": "Customer Service"
             },
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "C-33A, Surya Vihar Opposite Sector-4",
+              "streetAddress": "C-33A, Surya Vihar, Opposite Sector-4",
               "addressLocality": "Gurugram",
               "addressRegion": "Haryana",
               "postalCode": "122001",

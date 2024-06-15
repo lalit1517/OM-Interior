@@ -53,11 +53,11 @@ const Footer = () => {
                     CALL US NOW
                   </p>
                   <a
-                    href="tel:+919149159468"
+                    href="tel:+919818267341"
                     onclick="webClickActivity('10','Footer Call','1')"
                     className="text-uppercase text-white text-xl text-decoration-none text-5 font-weight-bold pb-0"
                   >
-                    ******9468
+                    ******7341
                   </a>
                 </div>
               </div>
@@ -70,11 +70,11 @@ const Footer = () => {
                     WHATSAPP
                   </p>
                   <a
-                    href="https://api.whatsapp.com/send/?phone=9149159468&text=Hi,+I+need+more+information+about+OM+Interior.+Please+contact+me."
+                    href="https://api.whatsapp.com/send/?phone=9818267341&text=Hi,+I+need+more+information+about+OM+Interior.+Please+contact+me."
                     target="_blank"
                     className="text-uppercase text-white text-xl text-decoration-none text-5 font-weight-bold pb-0"
                   >
-                    ******9468
+                    ******7341
                   </a>
                 </div>
               </div>
@@ -149,7 +149,7 @@ const Footer = () => {
                 <div className=" my-0 mb-4 bg-gray-200 h-[0.01rem]" />
               </div>
             </div>
-            <div className="hidden md:flex flex-col md:flex-row items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
+            <div className="flex items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
               <div className="w-fit lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
                 <p className="text-3 mb-0">
                   OM INTERIOR. 
@@ -159,11 +159,9 @@ const Footer = () => {
                 &copy; 2024, made with <i className="fa fa-heart heart"></i>
               </div>
             </div>
-            <div className="flex items-center justify-between py-0">
-              <div className="w-full flex items-center justify-center md:justify-between text-left lg:w-1/2 lg:text-lg-start py-4 mb-lg-0">
-                <p className="text-gray-400 text-[0.9rem] mb-0">
-                  Interior Designers In Gurugram.
-                </p>
+            <div className="row opacity-[0.1]">
+              <div className="col">
+                <div className=" my-0 mb-3 bg-black h-[0.01rem]" />
               </div>
             </div>
           </div>
