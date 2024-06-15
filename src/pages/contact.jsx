@@ -148,70 +148,21 @@ const Contact = () => {
 
   return (
     <div>
-      {/* <Helmet>
+      <Helmet>
         <title>Contact - OM INTERIOR</title>
         <meta
           name="description"
-          content="Contact OM INTERIOR, a leading interior design, architecture, and civil engineering firm in India. Renowned for innovative and sustainable design practices."
+          content="OM INTERIOR is one of the growing and influential
+                  architecture, interior design, civil engineering firm in
+                  India. We are renowned for our design practice and our
+                  steadfast commitment to design excellence innovation and
+                  sustainability"
         />
         <meta
           name="keywords"
-          content="OM Interior, om, interior, interiors, interior design, architecture, civil engineering, sustainable design, innovative interiors, design excellence, OM INTERIOR India, OM INTERIOR Gurugram, OM INTERIOR, interior, om design"
+          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://ominterior.ind.in/contact" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta property="og:title" content="Contact - OM INTERIOR" />
-        <meta
-          property="og:description"
-          content="Contact OM INTERIOR, a leading interior design, architecture, and civil engineering firm in India. Renowned for innovative and sustainable design practices."
-        />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ominterior.ind.in/contact" />
-        <meta
-          property="og:image"
-          content="https://ominterior.ind.in/logo.png"
-        />
-        <meta property="og:site_name" content="OM INTERIOR" />
-
-        <script type="application/ld+json">
-          {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://ominterior.ind.in/contact",
-            "logo": "https://ominterior.ind.in/logo.png",
-            "name": "OM INTERIOR",
-            "description": "Contact OM INTERIOR, a leading interior design, architecture, and civil engineering firm in India. Renowned for innovative and sustainable design practices.",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+91-98182-67341",
-              "contactType": "Customer Service"
-            },
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "C-33A, Surya Vihar, Opposite Sector-4",
-              "addressLocality": "Gurugram",
-              "addressRegion": "Haryana",
-              "postalCode": "122001",
-              "addressCountry": "IN"
-            },
-            "areaServed": {
-              "@type": "Place",
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "28.47002178030715",
-                "longitude": "77.00397228607972"
-              },
-              "name": "Delhi NCR"
-            }
-          }
-        `}
-        </script>
-      </Helmet> */}
-
-      <Helmet>
-        <title>Contact - OM INTERIOR</title>
         <link rel="canonical" href="https://ominterior.ind.in/contact" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       </Helmet>
