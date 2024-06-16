@@ -352,7 +352,8 @@ const Home = () => {
           name="google-site-verification"
           content="kL1qjKVWCOabDhaB4CopI36fblIQV04wxZgH6iwKyHY"
         />
-        <meta name="copyright" content="© 2024, OM INTERIOR" />
+        <meta name="copyright" content="OM INTERIOR" />
+        <meta name="Classification" content="Business" />
 
         {/* Open Graph Meta Tags */}
         <meta
@@ -370,6 +371,16 @@ const Home = () => {
           property="og:image"
           content="https://ominterior.ind.in/logo.png"
         />
+        <meta name="og:latitude" content="28.47002178030715" />
+        <meta name="og:longitude" content="77.00397228607972" />
+        <meta
+          name="og:street-address"
+          content="C-33A, Surya Vihar, Opposite Sector-4"
+        />
+        <meta name="og:locality" content="Gurugram" />
+        <meta name="og:region" content="Haryana" />
+        <meta name="og:postal-code" content="122001" />
+        <meta name="og:country-name" content="INDIA" />
 
         {/* Twitter Meta Tags */}
         <meta name="twitter:card" content="summary_large_image" />
@@ -389,37 +400,37 @@ const Home = () => {
         {/* Structured Data */}
         <script type="application/ld+json">
           {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Organization",
-            "url": "https://ominterior.ind.in",
-            "logo": "https://ominterior.ind.in/logo.png",
-            "name": "OM INTERIOR",
-            "description": "OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
-            "contactPoint": {
-              "@type": "ContactPoint",
-              "telephone": "+91-98182-67341",
-              "contactType": "Customer Service"
-            },
-            "address": {
-              "@type": "PostalAddress",
-              "streetAddress": "C-33A, Surya Vihar, Opposite Sector-4",
-              "addressLocality": "Gurugram",
-              "addressRegion": "Haryana",
-              "postalCode": "122001",
-              "addressCountry": "IN"
-            },
-            "areaServed": {
-              "@type": "Place",
-              "geo": {
-                "@type": "GeoCoordinates",
-                "latitude": "28.47002178030715",
-                "longitude": "77.00397228607972"
-              },
-              "name": "Delhi NCR"
-            }
-          }
-        `}
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "url": "https://ominterior.ind.in",
+      "logo": "https://ominterior.ind.in/logo.png",
+      "name": "OM INTERIOR",
+      "description": "OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+91-98182-67341",
+        "contactType": "Customer Service"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "C-33A, Surya Vihar, Opposite Sector-4",
+        "addressLocality": "Gurugram",
+        "addressRegion": "Haryana",
+        "postalCode": "122001",
+        "addressCountry": "IN"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "28.47002178030715",
+          "longitude": "77.00397228607972"
+        },
+        "name": "Delhi NCR"
+      }
+    }
+  `}
         </script>
       </Helmet>
 
