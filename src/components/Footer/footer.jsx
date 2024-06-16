@@ -150,7 +150,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="flex items-center justify-between py-0 mt-0 md:py-4 md:mt-2 text-gray-400 text-[0.9rem]">
-              <div className="w-fit lg:w-1/2 lg:text-lg-start mb-3 mb-lg-0">
+              <div className="w-fit lg:w-1/2 lg:text-lg-start mb-0 mb-lg-0">
                 <p className="text-3 mb-0">
                   OM INTERIOR. 
                 </p>
