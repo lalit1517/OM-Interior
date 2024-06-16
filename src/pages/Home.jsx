@@ -335,9 +335,9 @@ const Home = () => {
         <meta name="handheldfriendly" content="True" />
         <meta name="geo.region" content="IN" />
         <meta name="geo.placename" content="India" />
-        <meta name="geo.placename" content="Gurugram" />
+        {/* <meta name="geo.placename" content="Gurugram" />
         <meta name="geo.placename" content="Delhi" />
-        <meta name="geo.placename" content="Delhi NCR" />
+        <meta name="geo.placename" content="Delhi NCR" /> */}
         <meta name="geo.country" content="IN" />
         <meta
           name="geo.position"
