@@ -322,7 +322,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="OM Interior, om, interior, interiors, interior design, interior designer, interior design consultant, interior decoration, home interior design, architecture, civil engineering, sustainable design, India, Gurugram, Delhi, Delhi NCR, om interior Delhi NCR, om interior Delhi, om interior NCR, innovative interiors, design excellence, OM INTERIOR"
+          content="OM Interior, om, interior, interiors, interior design, interior designer, interior design consultant, interior decoration, home interior design, architecture, civil engineering, sustainable design, India, Gurugram, om interior Delhi NCR, om interior Delhi, om interior NCR, innovative interiors, design excellence, OM INTERIOR"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://ominterior.ind.in/" />
@@ -336,8 +336,8 @@ const Home = () => {
         <meta name="geo.region" content="IN" />
         <meta name="geo.placename" content="India" />
         <meta name="geo.placename" content="Gurugram" />
-        <meta name="geo.placename" content="Delhi" />
-        <meta name="geo.placename" content="Delhi NCR" />
+    <meta name="geo.placename" content="Delhi" />
+    <meta name="geo.placename" content="NCR" />
         <meta name="geo.country" content="IN" />
         <meta
           name="geo.position"
