@@ -318,7 +318,7 @@ const Home = () => {
         <title>OM INTERIOR</title>
         <meta
           name="description"
-          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail."
+          content="OM INTERIOR is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail."
         />
         <meta
           name="keywords"
@@ -336,8 +336,8 @@ const Home = () => {
         <meta name="geo.region" content="IN" />
         <meta name="geo.placename" content="India" />
         <meta name="geo.placename" content="Gurugram" />
-    <meta name="geo.placename" content="Delhi" />
-    <meta name="geo.placename" content="NCR" />
+        <meta name="geo.placename" content="Delhi" />
+        <meta name="geo.placename" content="Delhi NCR" />
         <meta name="geo.country" content="IN" />
         <meta
           name="geo.position"
@@ -363,7 +363,7 @@ const Home = () => {
         <meta property="og:url" content="https://ominterior.ind.in/" />
         <meta
           property="og:description"
-          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
+          content="OM INTERIOR is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
         />
         <meta property="og:site_name" content="OM INTERIOR" />
         <meta
@@ -379,7 +379,7 @@ const Home = () => {
         />
         <meta
           name="twitter:description"
-          content="OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
+          content="OM INTERIOR is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions."
         />
         <meta
           name="twitter:image"
@@ -395,7 +395,7 @@ const Home = () => {
             "url": "https://ominterior.ind.in",
             "logo": "https://ominterior.ind.in/logo.png",
             "name": "OM INTERIOR",
-            "description": "OM Interiors is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
+            "description": "OM INTERIOR is more than a contractor – we are your partners in excellence, dedicated to creating outstanding spaces with meticulous attention to detail. Our commitment ensures that we consistently exceed expectations, delivering the highest standard in turnkey solutions.",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-98182-67341",
@@ -416,7 +416,7 @@ const Home = () => {
                 "latitude": "28.47002178030715",
                 "longitude": "77.00397228607972"
               },
-              "name": "Delhi NCR"
+              "name": "India"
             }
           }
         `}
@@ -718,7 +718,7 @@ const Home = () => {
                         your expectations
                       </h2>
                       <p class="custom-font-secondary text-lg section5-part4 font-normal mb-4 appear-animation text-gray-400">
-                        OM Interiors is more than a contractor – we are your
+                        OM Interior is more than a contractor – we are your
                         partners in excellence, dedicated to creating
                         outstanding spaces with meticulous attention to detail.
                         Our commitment ensures that we consistently exceed
