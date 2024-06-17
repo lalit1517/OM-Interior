@@ -322,7 +322,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="OM Interior, om, interior, interiors, interior design, interior designer, interior design consultant, interior decoration, home interior design, architecture, civil engineering, sustainable design, India, Gurugram, om interior Delhi NCR, delhi, delhi ncr, om interior Delhi, om interior NCR, innovative interiors, design excellence, OM INTERIOR"
+          content="OM Interior, om, interior, interiors, interior design, interior designer, interior design consultant, interior decoration, home interior design, architecture, civil engineering, sustainable design, India, Gurugram, om interior Delhi NCR, Delhi, Delhi ncr, om interior Delhi, om interior NCR, innovative interiors, design excellence, OM INTERIOR"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="canonical" href="https://ominterior.ind.in/" />
