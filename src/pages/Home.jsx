@@ -223,7 +223,7 @@ const Home = () => {
           tl4.fromTo(
             ".section3-part4",
             { y: 40, opacity: 0 },
-            { y: 0, opacity: 1, ease: "linear", duration: 1 },
+            { y: 0, opacity: 1, ease: "linear", duration: 2 },
             1
           );
 
@@ -299,7 +299,7 @@ const Home = () => {
             ".section6-part5",
             { y: 100, opacity: 0 },
             { y: 0, opacity: 1, ease: "linear", duration: 1 },
-            0
+            0.5
           );
         }
       };
