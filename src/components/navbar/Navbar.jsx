@@ -9,7 +9,7 @@ const Navbar = () => {
   const [visible, setVisible] = useState(true);
   const [isDropdownOpen2, setIsDropdownOpen2] = useState(false);
   const [ptValue, setPtValue] = useState("1rem");
-  const [ptValue2, setPtValue2] = useState("34px");
+  const [ptValue2, setPtValue2] = useState("25px");
 
   const handleDropdownToggle = () => {
     setIsDropdownOpen2((prevState) => !prevState);
