@@ -174,7 +174,7 @@ const Contact = () => {
           <div className="container my-3">
             <div className="row">
               <div className="col-md-12 align-self-center p-static order-2 text-center">
-                <h1 className="font-bold text-10 text-white">Contact</h1>
+                <h1 className="font-bold text-10 text-white mb-0">Contact</h1>
               </div>
               <div className="w-full flex items-center justify-center text-[0.9rem]">
                 <div className=" flex items-center gap-2 text-center">

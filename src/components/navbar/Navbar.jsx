@@ -32,7 +32,6 @@ const Navbar = () => {
 
   useEffect(() => {
     const pathname = location.pathname;
-    console.log('Location changed:', location.pathname);
     if (pathname === "/") {
       setActiveItem("Home");
     } else if (pathname === "/about") {
@@ -159,7 +158,7 @@ const Navbar = () => {
                                 }`}
                                 onClick={() => handleItemClick("About")}
                               >
-                                About Us
+                                About
                               </a>
                             </li>
                             <li
