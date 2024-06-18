@@ -31,6 +31,7 @@ const Navbar = () => {
   const [activeItem, setActiveItem] = useState("Home");
 
   useEffect(() => {
+    console.log('Location changed:', location.pathname);
     const pathname = location.pathname;
     if (pathname === "/") {
       setActiveItem("Home");
