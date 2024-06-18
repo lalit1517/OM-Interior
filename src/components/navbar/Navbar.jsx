@@ -28,10 +28,11 @@ const Navbar = () => {
   };
 
   const location = useLocation();
-  const [activeItem, setActiveItem] = useState("");
+  const [activeItem, setActiveItem] = useState("Home");
 
   useEffect(() => {
     const pathname = location.pathname;
+    console.log('Location changed:', location.pathname);
     if (pathname === "/") {
       setActiveItem("Home");
     } else if (pathname === "/about") {
