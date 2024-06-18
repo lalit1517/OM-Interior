@@ -17,11 +17,13 @@
   background: #0d6efd;
 }
 
+@media (min-width: 1024px) {
 .section1-part1,
 .section1-part2,
 .section1-part3 {
   opacity: 0;
   transform: translateY(40px); /* Initial position matching the animation */
+}
 }
 
 @keyframes fadeInFromTopRight {
