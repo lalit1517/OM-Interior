@@ -56,10 +56,6 @@ const Navbar = () => {
     }
   }, [location.pathname]);
 
-  const handleItemClick = (itemName) => {
-    setActiveItem(itemName);
-  };
-
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollPos = window.scrollY;
@@ -143,7 +139,6 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                // onClick={() => handleItemClick("Home")}
                               >
                                 Home
                               </a>
@@ -156,7 +151,6 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                // onClick={() => handleItemClick("About")}
                               >
                                 About
                               </a>
@@ -188,7 +182,6 @@ const Navbar = () => {
                                       }}
                                       href="/interior-design"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Interior Design
                                     </a>
@@ -200,7 +193,6 @@ const Navbar = () => {
                                     <a
                                       href="/turnkey-solutions"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Turnkey Solutions
                                     </a>
@@ -212,7 +204,6 @@ const Navbar = () => {
                                     <a
                                       href="/construction-management"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Construction Management
                                     </a>
@@ -228,7 +219,6 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                // onClick={() => handleItemClick("Gallery")}
                               >
                                 Gallery
                               </a>
@@ -241,7 +231,6 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                // onClick={() => handleItemClick("Contact")}
                               >
                                 Contact
                               </a>
@@ -273,7 +262,6 @@ const Navbar = () => {
                                 ? "bg-[#0d6efd] text-white"
                                 : "bg-white text-[#0d6efd]"
                             }`}
-                            onClick={() => handleItemClick("Home")}
                           >
                             HOME
                           </Link>
@@ -287,7 +275,6 @@ const Navbar = () => {
                                 ? "bg-[#0d6efd] text-white"
                                 : "bg-white text-[#0d6efd]"
                             }`}
-                            onClick={() => handleItemClick("About")}
                           >
                             ABOUT US
                           </Link>
@@ -315,7 +302,6 @@ const Navbar = () => {
                                 <a
                                   href="/interior-design"
                                   className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
-                                  onClick={() => handleItemClick("Service")}
                                 >
                                   Interior Design
                                 </a>
@@ -327,7 +313,6 @@ const Navbar = () => {
                                 <a
                                   href="/turnkey-solutions"
                                   className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
-                                  onClick={() => handleItemClick("Service")}
                                 >
                                   Turnkey Solutions
                                 </a>
@@ -339,7 +324,6 @@ const Navbar = () => {
                                 <a
                                   href="/construction-management"
                                   className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
-                                  onClick={() => handleItemClick("Service")}
                                 >
                                   Construction Management
                                 </a>
@@ -356,7 +340,6 @@ const Navbar = () => {
                                 ? "bg-[#0d6efd] text-white"
                                 : "bg-white text-[#0d6efd]"
                             }`}
-                            // onClick={() => handleItemClick("Gallery")}
                           >
                             GALLERY
                           </Link>
@@ -370,7 +353,6 @@ const Navbar = () => {
                                 ? "bg-[#0d6efd] text-white"
                                 : "bg-white text-[#0d6efd]"
                             }`}
-                            onClick={() => handleItemClick("Contact")}
                           >
                             CONTACT
                           </Link>
