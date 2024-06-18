@@ -57,7 +57,6 @@ const Navbar = () => {
 
   const handleItemClick = (itemName) => {
     setActiveItem(itemName);
-    console.log(itemName);
   };
 
   useEffect(() => {
