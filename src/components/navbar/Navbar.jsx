@@ -143,7 +143,7 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                onClick={() => handleItemClick("Home")}
+                                // onClick={() => handleItemClick("Home")}
                               >
                                 Home
                               </a>
