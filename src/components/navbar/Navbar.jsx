@@ -156,7 +156,7 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                onClick={() => handleItemClick("About")}
+                                // onClick={() => handleItemClick("About")}
                               >
                                 About
                               </a>
@@ -188,7 +188,7 @@ const Navbar = () => {
                                       }}
                                       href="/interior-design"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      onClick={() => handleItemClick("Service")}
+                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Interior Design
                                     </a>
@@ -200,7 +200,7 @@ const Navbar = () => {
                                     <a
                                       href="/turnkey-solutions"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      onClick={() => handleItemClick("Service")}
+                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Turnkey Solutions
                                     </a>
@@ -212,7 +212,7 @@ const Navbar = () => {
                                     <a
                                       href="/construction-management"
                                       className="nav-link text-gray-500 hover:text-gray-200 font-normal"
-                                      onClick={() => handleItemClick("Service")}
+                                      // onClick={() => handleItemClick("Service")}
                                     >
                                       Construction Management
                                     </a>
@@ -228,7 +228,7 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                onClick={() => handleItemClick("Gallery")}
+                                // onClick={() => handleItemClick("Gallery")}
                               >
                                 Gallery
                               </a>
@@ -241,7 +241,7 @@ const Navbar = () => {
                                     ? "text-[#0d6efd]"
                                     : "text-gray-800"
                                 }`}
-                                onClick={() => handleItemClick("Contact")}
+                                // onClick={() => handleItemClick("Contact")}
                               >
                                 Contact
                               </a>
@@ -356,7 +356,7 @@ const Navbar = () => {
                                 ? "bg-[#0d6efd] text-white"
                                 : "bg-white text-[#0d6efd]"
                             }`}
-                            onClick={() => handleItemClick("Gallery")}
+                            // onClick={() => handleItemClick("Gallery")}
                           >
                             GALLERY
                           </Link>
