@@ -144,7 +144,7 @@ const Home = () => {
               y: 0,
               opacity: 1, ease:"linear"
             },
-            0.5
+            0.2
           );
 
           tl.fromTo(
@@ -154,7 +154,7 @@ const Home = () => {
               y: 0,
               opacity: 1, ease:"linear"
             },
-            1
+            0.4
           );
 
           tl1.fromTo(
