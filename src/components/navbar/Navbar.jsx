@@ -38,17 +38,17 @@ const Navbar = () => {
       setActiveItem("About");
     } else if (pathname === "/interior-design") {
       setActiveItem("Service");
-    }else if (pathname === "/turnkey-solutions") {
+    } else if (pathname === "/turnkey-solutions") {
       setActiveItem("Service");
-    }else if (pathname === "/construction-management") {
+    } else if (pathname === "/construction-management") {
       setActiveItem("Service");
-    }else if (pathname === "/gallery") {
+    } else if (pathname === "/gallery") {
       setActiveItem("Gallery");
-    }else if (pathname === "/gallery-offices") {
+    } else if (pathname === "/gallery-offices") {
       setActiveItem("Gallery");
-    }else if (pathname === "/gallery-restaurants") {
+    } else if (pathname === "/gallery-restaurants") {
       setActiveItem("Gallery");
-    }else if (pathname === "/gallery-residentials") {
+    } else if (pathname === "/gallery-residentials") {
       setActiveItem("Gallery");
     } else if (pathname === "/contact") {
       setActiveItem("Contact");
@@ -180,7 +180,11 @@ const Navbar = () => {
                                         borderTopColor: "#0d6efd",
                                       }}
                                       href="/interior-design"
-                                      className="nav-link text-gray-500 hover:text-gray-200 font-normal"
+                                      className={`nav-link font-normal ${
+                                        location.pathname === "/interior-design"
+                                          ? "text-[#0d6efd] hover:text-gray-200"
+                                          : "text-gray-500 hover:text-gray-200"
+                                      }`}
                                     >
                                       Interior Design
                                     </a>
@@ -191,7 +195,12 @@ const Navbar = () => {
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
                                       href="/turnkey-solutions"
-                                      className="nav-link text-gray-500 hover:text-gray-200 font-normal"
+                                      className={`nav-link font-normal ${
+                                        location.pathname ===
+                                        "/turnkey-solutions"
+                                          ? "text-[#0d6efd] hover:text-gray-200"
+                                          : "text-gray-500 hover:text-gray-200"
+                                      }`}
                                     >
                                       Turnkey Solutions
                                     </a>
@@ -202,7 +211,12 @@ const Navbar = () => {
                                   <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                     <a
                                       href="/construction-management"
-                                      className="nav-link text-gray-500 hover:text-gray-200 font-normal"
+                                      className={`nav-link font-normal ${
+                                        location.pathname ===
+                                        "/construction-management"
+                                          ? "text-[#0d6efd] hover:text-gray-200"
+                                          : "text-gray-500 hover:text-gray-200"
+                                      }`}
                                     >
                                       Construction Management
                                     </a>
@@ -300,7 +314,11 @@ const Navbar = () => {
                               <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                 <a
                                   href="/interior-design"
-                                  className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
+                                  className={`nav-link font-normal ${
+                                    location.pathname === "/interior-design"
+                                      ? "text-[#0d6efd] hover:text-gray-200"
+                                      : "text-gray-500 hover:text-gray-200"
+                                  }`}
                                 >
                                   Interior Design
                                 </a>
@@ -311,7 +329,11 @@ const Navbar = () => {
                               <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                 <a
                                   href="/turnkey-solutions"
-                                  className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
+                                  className={`nav-link font-normal ${
+                                    location.pathname === "/turnkey-solutions"
+                                      ? "text-[#0d6efd] hover:text-gray-200"
+                                      : "text-gray-500 hover:text-gray-200"
+                                  }`}
                                 >
                                   Turnkey Solutions
                                 </a>
@@ -322,7 +344,12 @@ const Navbar = () => {
                               <li className="hover:bg-gray-500 transition duration-150 ease-in-out">
                                 <a
                                   href="/construction-management"
-                                  className="nav-link text-[#0d6efd] hover:text-gray-200 font-normal"
+                                  className={`nav-link text-[#0d6efd] hover:text-gray-200 font-normal ${
+                                    location.pathname ===
+                                    "/construction-management"
+                                      ? "text-[#0d6efd] hover:text-gray-200"
+                                      : "text-gray-500 hover:text-gray-200"
+                                  }`}
                                 >
                                   Construction Management
                                 </a>

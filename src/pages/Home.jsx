@@ -132,7 +132,7 @@ const Home = () => {
             { y: 40, opacity: 0 },
             {
               y: 0,
-              opacity: 1,
+              opacity: 1, ease:"linear"
             },
             0
           );
@@ -142,9 +142,9 @@ const Home = () => {
             { y: 40, opacity: 0 },
             {
               y: 0,
-              opacity: 1,
+              opacity: 1, ease:"linear"
             },
-            0.6
+            0.5
           );
 
           tl.fromTo(
@@ -152,9 +152,9 @@ const Home = () => {
             { y: 40, opacity: 0 },
             {
               y: 0,
-              opacity: 1,
+              opacity: 1, ease:"linear"
             },
-            1.2
+            1
           );
 
           tl1.fromTo(
