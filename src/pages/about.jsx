@@ -58,21 +58,6 @@ const About = () => {
       
       <Helmet>
         <title>About - OM INTERIOR</title>
-        <meta
-          name="description"
-          content="OM INTERIOR is one of the growing and influential
-                  architecture, interior design, civil engineering firm in
-                  India. We are renowned for our design practice and our
-                  steadfast commitment to design excellence innovation and
-                  sustainability"
-        />
-        <meta
-          name="keywords"
-          content="OM Interior, interior design, architecture, civil engineering, sustainable design, India, Gurugram, innovative interiors, design excellence"
-        />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="canonical" href="https://ominterior.ind.in/about" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       </Helmet>
 
       <Navbar />

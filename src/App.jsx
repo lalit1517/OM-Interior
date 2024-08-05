@@ -1,7 +1,6 @@
 import { BrowserRouter as Router } from "react-router-dom"; 
 import Routers from "./router/Routers";
 import Cursor from "./components/cursor-animation/cursor";
-import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -10,7 +9,6 @@ function App() {
       <Router>
         <Routers />
       </Router>
-      <Analytics />
     </>
   );
 }
